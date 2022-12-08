@@ -1,0 +1,99 @@
+02 Conceitos sobre Governança de Dados
+Conhecer o processo de Governança de Dados
+
+
+O que é Governança de Dados mesmo....
+Segundo conceitos do DAMA ? DMBOK, governança de é o exercício de autoridade e controle (planejamento, monitoramento e execução) sobre a gestão de ativos de dados.
+
+Em um contexto mais amplo e geral pode-se dizer que a governança de dados tem como responsabilidade administrar os princípios da organização e controle de dados e informações. Esta gestão envolve interface com diversas outras funções e estabelece políticas e diretrizes corporativas para governar os dados, além de atribuir papéis e responsabilidades.
+
+Seu escopo de atuação é muito amplo. Engana-se quem acha que a governança de dados atua somente no patamar das normas e dos padrões ou ainda através de controles e permissões de acesso a dados e informações. Ela atua com uma visão mais apurada sobre os dados estratégicos da empresa, definindo-os e analisando os processos que produzem e se abastecem desses dados.
+
+Tem a responsabilidade de alinhar tecnologia, processos e pessoas para definir os papéis, as responsabilidades e os processos necessários para gerir os dados estratégicos da empresa.
+
+Dúvidas que talvez possam aparecer no ambiente de governança: 
+Quais são os dados existentes?
+
+Quais são os dados estratégicos?
+
+Quais dados são necessários?
+
+Quem possui acesso aos seguintes dados?
+
+Quem é o Gestor de um determinado dado?
+
+O que significa este conceito?
+
+Quando este dado foi criado?
+
+Quando poderá ser descartado?
+
+Onde está este dado?
+
+Onde é utilizado este dado?
+
+Como é criado este dado?
+
+Como consigo acessar este dado?
+
+Quanto custa a gestão deste dado?
+
+Serão facilmente respondidas quando a empresa possui um programa de governança de dados estabelecido.  Não é por acaso que a função está centralizada na figura central do guia DAMA-DMBOK, fazendo interface com todas as demais funções, influenciando direta ou indiretamente as atividades e os papéis envolvidos na gestão dos dados.
+
+Deficiente visual
+Alinhamento entre pessoas, processos e tecnologia
+Fonte: Adaptado de: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+A Gestão de Dados em relação a Governança de Dados....
+“Gestão de Dados tem como responsabilidade: definir, planejar, implantar e executar estratégias, procedimentos e práticas necessárias para gerenciar de forma efetiva os recursos de dados e informações das organizações, incluindo planos para sua definição, padronização, organização, proteção e utilização.“ Barbieri anos 90.
+
+“Gestão de Dados é a função na organização que cuida do planejamento, controle e entrega dos ativos de dados e de informação. Esta função inclui: as disciplinas do desenvolvimento, execução e supervisão de planos, politicas, programas, projetos, processos, práticas e procedimentos que controlam, protegem, distribuem e aperfeiçoam o valor dos ativos de dados e informações?“ DAMA - DMBOK
+
+Pode-se então dizer que ela é responsável por zelar da melhor forma possível, através de seus profissionais de tecnologia e também de negócios, os dados e metadados das organizações, fazendo com que sejam aderentes às necessidades do negócio, únicos, íntegros, confiáveis, manuteníveis, conhecidos, performáticos, legíveis e disponíveis a quem realmente precisa ter o acesso.
+
+O desenvolvimento ocorre com dados que são captados através da infraestrutura da TI e seus sistemas de gerenciamento e processamento de informações. Os profissionais da área de negócios consomem, alimentam e identificam novas necessidades de informações. Portanto, nada mais apropriado que a responsabilidade por essa gestão ser compartilhada entre a TI e o negócio.
+
+O Data Governance Institute e a DAMA' - Data Management International, aos poucos vem surgindo no mercado brasileiro de forma muito mais abrangente, englobando funções anteriormente esquecidas ou mal gerenciadas pelas organizações.
+
+Deficiente visual
+Decisão em Governança de Dados
+Fonte: DAMA - DMBOK
+O DAMA – DMBOK comenta que governança de dados não é a mesma coisa que governança de TI. A Governança de TI toma  as decisões sobre os investimentos de TI, o portfólio das aplicações de TI e o portfólio de projetos de TI. Ela alinha as estratégias e investimentos de T1 com os objetivos e estratégias da organização. O COBIT (Control Objectives for Information and Related Technology)  fornece padrões para a governança de TI, mas apenas uma pequena parte  e o framework ÇOBIT aborda a gestão da informação. Algumas questões críticas, como o cumprimento das leis regulatórias Sarbanes-Oxley, medem as preocupações de governança corporativa, governança de TI e de governança de dados.
+
+Deficiente visual
+Decisão na Governança de Dados
+Fonte: DAMA - DMBOK
+ALERTA
+Pode-se perceber a quantidade de informações existentes no modelo de Governança, neste momento o conhecimento deverá estar na memória, se não volte e solucione suas duvidas.
+
+Funções primárias....
+A versão atual do guia DAMA-DMBOK' estabelece dez funções primárias:
+
+Governança de Dados: função que representa o exercício da autoridade e o controle de estratégias, politicas, regras, procedimentos, papéis e atividades envolvidos com os ativos de dados.
+
+Gestão da Arquitetura de Dados: responsável por definir as necessidades de dados (geralmente corporativos) da empresa. Responsável por criar e manter a Arquitetura Corporativa de Dados de acordo com os objetivos estratégicos da empresa.
+
+Gestão do Desenvolvimento dos Dados: atividades de dados dentro do ciclo de desenvolvimento de sistemas, tais como: Modelagem de Dados, análise de requisitos de dados, projeto de banco de dados, implantação e manutenção dos bancos de dados.
+
+Gestão de Operação de Dados: manter armazenados os dados ao longo do seu ciclo de vida após a criação das estruturas. O ciclo se inicia na criação e/ou aquisição dos dados e vai até o arquivamento final ou a sua eliminação.
+
+Gestão da Segurança dos Dados: definir e manter as políticas de segurança e procedimentos a fim de prover a adequada autenticação, utilização, acesso e auditoria de dados.
+
+Gestão de Dados Mestres e Dados de Referência: definir e controlar atividades para garantir a consistência e disponibilização de visões únicas dos dados mestres e de referência da empresa.
+
+Gestão de Data Warehousing e Business Intelligence: definir e controlar processos para prover dados de suporte à decisão, geralmente disponibilizados em aplicações analíticas.
+
+Gestão da Documentação e Conteúdo: planejar, implementar e controlar atividades para armazenar, proteger e acessar os dados não estruturados da empresa.
+
+Gestão de Metadados: gerir e armazenar os metadados da empresa, além de viabilizar formas de acesso.
+
+Gestão da Qualidade dos Dados: gestão das atividades para aplicação de técnicas de Qualidade de Dados com o propósito de medir, avaliar, melhorar e garantir a qualidade dos dados da empresa.
+
+Ainda como referência ao DAMA – DMBOK a Governança de Dados é realizada eficazmente se executada como um programa (e não como um projeto) seguindo um processo de melhoria contínua.
+
+Cada programa de governança de dados efetivo e único, levando em consideração diferentes questões organizacionais e culturais, e desafios e as oportunidades imediatas da gestão de dados. Governança de dados é um termo relativamente novo, e muitas organizações continuam sendo pioneiras em novas abordagens
+
+
+Estruturação Governança de Dados
+Fonte: DAMA - DMBOK
+FINALIZANDO....
+Fim de tópico .
