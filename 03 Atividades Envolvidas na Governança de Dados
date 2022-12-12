@@ -1,0 +1,154 @@
+Atividades Envolvidas na Governança de Dados
+Visualizar o que é desenvolvido e as preocupações da Governança de dados
+
+NESTE TÓPICO
+ O que fazer e como fazer.....
+ Com a visão na redução de custos e sem tentar perder eficiência operacional,
+ Fazendo uma revisão de conceitos anteriores:
+ A atuação na governança de dados tem como objetivo o exercício de autoridade e controle sobre os dados, os ativos da empresa. Ela é uma função de alto nível, executiva.
+ Referências
+NESTE TÓPICO
+
+ O que fazer e como fazer.....
+ Com a visão na redução de custos e sem tentar perder eficiência operacional,
+ Fazendo uma revisão de conceitos anteriores:
+ A atuação na governança de dados tem como objetivo o exercício de autoridade e controle sobre os dados, os ativos da empresa. Ela é uma função de alto nível, executiva.
+ Referências
+Marcar
+tópico
+
+     
+
+O que fazer e como fazer.....
+As atividades relacionadas a cada programa existente em governança de dados são únicas e os motivos são: questões organizacionais e culturais, desafios e oportunidades imediatas. Neste mundo novo que é a Governança de dados muitas organizações estão iniciando como pioneiras em suas novas abordagens.
+
+Com o passar do tempo o histórico da utilização e aceitação e uso das áreas de Administração e Gestão de Dados nas empresas brasileiras vem crescendo no decorrer de cada década, os cenários desta atuação vem sofrendo mudanças radicais. Tempo esse que possibilitou aprender com os mais diversos erros.
+
+Segundo o livro de Bergston, a figura a seguir ilustra algumas particularidades, além do resumo da atuação das áreas de Administração e Gestão de Dados em cada década, desde o início da utilização do conceito “Administração de Dados” até os dias atuais, onde o termo “Gestão de Dados" ganha mais força.
+
+Deficiente visual
+Histórico - Gestão de dados - Brasil
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Na fase inicial (1980 – 1990) – A novidade. O Administrador de Dados surge no mercado (anos 80) – SGBD’R começaram a ser adotados nas empresas ainda na plataforma alta (mainframes), em substituição aos sistemas de arquivos e bancos de dados em rede e bancos de dados hierárquicos. Para suportar as atividades decorrentes do uso dos SGBD’R, consolidou-se no mercado brasileiro o DBA - Administrador de Banco de Dados. Este profissional geralmente acumulava as atividades de administração do banco de dados e de apoio a Modelagem de Dados.
+
+Com o tempo, foi constatado que o perfil DBA não era suficiente para suportar todas as tarefas relativas ao uso dos bancos de dados nas organizações. Faltava um perfil mais genérico, ligado ao entendimento dos requisitos de negócio e técnicas de análise. Surgia então o papel do AD Administrador de Dados.
+
+Com perfis diferenciados, mas diretamente ligados a mesma matéria-prima, o dado, surge o Administrador de Dados - AD . O DBA tem foco em questões físicas, ligadas ao armazenamento e desempenho das consultas com os dados, preocupações necessárias para gerir toda a infraestrutura e assegurar boa disponibilidade e desempenho dos dados. Já o AD tem um perfil mais genérico, não tão técnico, ideal para traduzir requisitos de informação e regras de negócio em modelos de dados.
+
+Fase seguinte (1990 - 2000) –Estabilização - Utilização dos SGBDRs cresceu consideravelmente nas empresas devido ao movimento a migração para máquinas de pequeno porte. O downsizing (termo técnico desta migração) vinha com o propósito de migrar os sistemas e as aplicações da plataforma alta (mainframes) para a plataforma baixa (micros). Nessa década, o discurso dos dados como ativos importantes das organizações já soava como algo inovador e poderoso, no sentido de obter apoio nas altas esferas dos departamentos de Informática/Tl.
+
+Com esta explosão surgem às primeiras ferramentas de modelagem no mercado, aliado à consolidação de sistemas gerenciadores de bancos de dados para plataforma baixa, facilitou a implantação da área de Administração de Dados. O desenvolvimento desta estrutura seguia um grupo de atividades: Modelagem de Dados, Administração de Banco de Dados e Gestão de Modelos de Dados.  Por outro lado, uma grande evolução é vivenciada com rapidez: a evolução das tecnologias, mudanças radicais em relação à forma de desenvolver software, análise estruturada, análise essencial entre outras coisas.
+
+Fase posterior (2000 – 2010) - Declínio  - O ritmo da evolução tecnológica desenfreada e mais veloz ainda que o período anterior, porém o ritmo de capacitação dos Administradores de Dados não era o mesmo, os profissionais de Administração de Dados que não adequaram a esta evolução.
+
+ 
+
+Deficiente visual
+Composição das atividades
+Com a visão na redução de custos e sem tentar perder eficiência operacional,
+as empresas começaram a intensificar o movimento de terceirização de pessoal, nas gerências e departamentos de TI. Uma transformação nos departamentos, alguns foram extintos, dando lugar a prestação de serviços específicos ou simples contratos de alocação de mão de obra, profissionais sendo demitidos e voltavam como consultores. Enfim, a quantidade de Administradores de Dados formados e qualificados no mercado era insuficiente para suprir todas as demandas e vagas necessárias. Isso gerou uma grande procura deste profissional, agora fora do perfil necessário, esse movimento não surtiu um bom resultado, pois, além de contratar mal, a rotatividade e a perda de conhecimento eram muito grandes resultado a função começou a ser desprestigiada o mercado. Com consequência os profissionais qualificados na função de Administrador de Dados foram sumindo quer seja por aposentadoria, abandono ou foram tentar a vida em outras funções mais prestigiadas na época. Com a escassez algumas empresas arriscaram a fusão das atividades do AD (Administrador de Dados) com as atividades do DBA (Administrador de Banco de Dados), piorando ainda mais o cenário.
+
+Fase (2010 - ...) - A Redescoberta - Integração dos dados propostas pelos pacotes ERP das grandes empresas de TI, projetos de Business Intelligence não foram terminados por falta de recursos, patrocínio ou questões de capacidade técnica dos times de projeto, mas pela má qualidade dos dados que eram manipulados no ambiente produtivo. Com o uso de sistemas integrados várias empresas não prestaram atenção à massa de dados, e não tiveram a preocupação de avaliar a redundância dos dados.
+
+Com o crescimento desorganizado das empresas motivado por fusões, aquisições e reestruturações, cada vez mais as áreas de TI ficam distantes das áreas de negócio nas empresas. Em muitos casos, o conhecimento do negócio está na cabeça dos analistas funcionais das soluções ERP.
+
+Sabe-se até agora que além de ter dados redundantes e não confiáveis, as empresas convivem com o problema de não conhecer o acervo de dados existentes. O problema principal é o fato de a empresa não ter os dados necessários para uma melhor gestão dos seus próprios negócios.
+
+Além disso, o volume de dados processados atualmente é muito maior do que nas décadas passadas. Surge então o conceito de “Big Data”, onde algumas dezenas de petabytes de dados são processadas a cada dia.
+
+O movimento contínuo de redução de custos das empresas, alinhado à necessidade de tomadas de decisões cada vez mais rápidas e consistentes, trouxe desta vez, de forma mais contundente, a importância do reconhecimento dos dados como ativo estratégico de qualquer organização.
+
+Neste cenário, surge a Gestão de Dados com o propósito de ser uma função mais abrangente que a antiga Administração de Dados, garantindo uma melhor gestão dos dados e metadados que circulam nas empresas.
+
+A adoção da Gestão de Dados no Brasil ainda é bastante recente, porém a função já é adotada há mais de uma década nos Estados Unidos e no Canadá. Algumas empresas no Brasil já começaram com iniciativas para adotar esta disciplina e os resultados têm sido bastante satisfatórios. Esta propicia às empresas a possibilidade de realmente utilizarem informações íntegras de qualidade e de fácil acesso, formando um alicerce para que tomem decisões baseadas em dados reais e confiáveis.
+
+Deficiente visual
+Responsabilidade compartilhada
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+ATENÇÃO AOS CONCEITOS A SEGUIR.....
+Itens indispensáveis para a Governança de dados
+
+Trabalhando agora a visão focada na governança de dados, sabe-se que ela é a função central do framework da gestão de dados, interage e influência cada uma das dez funções da gestão de dados, são elas: (de acordo com o DAMA-BOK)
+
+Fazendo uma revisão de conceitos anteriores:
+1. Governança de Dados: O exercício da autoridade e de controle (planejamento, monitoramento, e execução) sobre a gestão de ativos de dados.
+
+2. Gestão de Arquitetura de Dados: Define as necessidades de dados da organização, e desenha o diagrama mestre para atender a essas necessidades.
+
+3. Gestão de Desenvolvimento de Dados: Diagramação, implementação e manutenção da organização. O ciclo de vida do sistema, modelagem da base de dados entre outros.
+
+4. Gestão de Operação de Dados: Planejamento, controle e suporte do ativo de dados estruturado em todo o ciclo de vida do dado, desde a criação e aquisição até arquivamento e expurgo.
+
+5. Gestão de Segurança de Dados: Planejamento, desenvolvimento e execução de políticas e procedimentos de segurança para fornecer a devida autenticação, autorização, acesso, e auditoria para o dado e informação.
+
+6. Gestão de dados Mestres e de Referência: Planejamento, implementação e atividades de controle para assegurar a consistência com a “versão dourada” dos valores de dados contextuais.
+
+7. Gestão de Data Warehousing e business intelligence. Planejamento, implementação  e controle de processos para fornecer dados de suporte e apoio decisão para dar suporte aos trabalhadores do conhecimento envolvidos na geração de relatórios, consultas e análises.
+
+8. Gestão de Conteúdo e Documento: Planejamento, implementação e atividades de controle do armazenamento, proteção e acesso aos dados encontrados nos arquivos eletrônicos.
+
+9. Gestão de Meta-dados: Planejamento, implementação e atividades de controle para permitir fácil acesso e alta qualidade de dados.
+
+10. Gestão da Qualidade de Dados: Planejamento, implementação e atividades pra medição, avaliação, otimização como forma de adequação aos dados de uso.
+
+Deficiente viual
+Processos das atividades Governança de dados
+A atuação na governança de dados tem como objetivo o exercício de autoridade e controle sobre os dados, os ativos da empresa. Ela é uma função de alto nível, executiva.
+No DAMA-BOK, Governança de dados é essencialmente, “o governo de dados” dentro da organização. Como outros governos, existem diversos modelos de governança de dados podem ser tomadas. Algumas decisões podem ser tomadas sem riscos para os gestores individuais. Os profissionais envolvidos têm a responsabilidade de administrar políticas, padrões e procedimentos para a gestão e implementação da arquitetura de dados, com a intenção de proteção dos ativos (dados) com objetivo de fornecer serviços de gestão de dados. As regras definidas por organizações de governança de dados incluem a estratégia global dos dados, as politicas de dados, padrões de dados, procedimentos de gestão de dados, métricas de gestão de dados, os nomes de dados de negócio, definições de negócio e regras de negócio encontradas no modelo de dados corporativo, especificações de requisitos de dados adicionais, regras de negócio para qualidade de dados. As questões julgadas pelas organizações de governança de dados incluem as questões de segurança de dados, as questões de acesso a dados, as questões de qualidade dos dados, as questões de conformidade regulamentar, questões de conformidade com políticas e normas, definição de conflitos e questões “procedurais” de governança de dados.
+
+Organizações de serviços de gestão de dados
+
+Profissionais de gestão de dados dentro departamento de TI reportam para uma ou mais organizações de serviços de gestão de dados. Em muitas organizações pode haver uma organização centralizada de serviços de gestão de dados, enquanto em outras há vários grupos descentralizados. Algumas organizações têm duas organizações locais de serviços de dados bem como uma organização centralizada. Uma organização de serviço de dados centralizada é conhecida como um Centro de Excelência em Gestão de Dados.
+
+O executivo da gestão de dados
+
+O gestor de dados executivo lidera a função de gestão de dados, servindo como mão direita do diretor de tecnologia da informação para informações, ele deve se reportar diretamente ao diretor de tecnologia, responsável pela coordenação de gestão de dados e pela governança de dados.
+
+Politicas de dados
+
+Políticas de dados são breves declarações de intenções de gestão e as regras fundamentais que regem a criação, a aquisição, a integridade, segurança, qualidade e utilização dos dados e informações. Políticas de dados são mais fundamentais e globais, elas variam muito entre as organizações  descrevendo o que fazer e o que não fazer, enquanto os padrões e procedimentos descrevem como fazer algo.
+
+Gestão de conflitos
+
+Identificar, controlar, e resolver:
+
+Questões de qualidade de dados.
+Nomes de dados e conflitos na definição.
+Esclarecimentos e conflitos em regras de negócios.
+Segurança dos dados, privacidade e questões de confidencialidade.
+Questões de não-conformidade em relação à regulamentação.
+Questões de não-conformidade (políticas, padrões, arquitetura e procedimentos).
+Políticas, padrões, arquitetura e procedimentos conflitantes.
+Conflito de interesses das partes interessadas em dados e informações.
+Questões de gestão de mudanças organizacionais e culturais.
+Questões relativas aos procedimentos de direitos de decisão.
+Negociação e revisão de acordos de partilha de dados.
+Deficiente visual
+Gestão de conflitos
+Fonte: DAMA - DMBOK
+PONTO DE VERIFICAÇÃO
+Atenção aos conceitos e termos do processo de governança de dados.
+
+Agora faça os exercícios para testar o que foi guardado de conhecimento.
+
+Quiz
+Exercício
+Atividades Envolvidas na Governança de Dados
+INICIAR 
+Referências
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft ¿ Belo Horizonte
+
+Complementar
+
+Benson, Robert J., Torn Bugnitz, and Bill Walton. From Business Strategy to lT Aum".
+
+Right Deo1s1ons for a Better Bottom Line. John Wiley & Sons, 2004. ISBN 0471491913 309 pages.
+
+IT Governance Institute. Control Objectives for Information and related Technology (CobiT©). www.isaca.org/cobit.
+
+Lutchen, Mark. Managing IT as a Business: A Survival Guide for CEOs. John Wiley & Sons, 2003. ISBN 0-471-47104-6. 256 pages.
+
