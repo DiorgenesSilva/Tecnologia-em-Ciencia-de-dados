@@ -1,0 +1,127 @@
+Planejamento da Gestão de Dados
+Conhecer o processo de planejamento em Gestão de Dados
+
+NESTE TÓPICO
+
+
+
+
+NESTE TÓPICO
+
+ Primeiros passos: Planejar....
+ O que focar para este planejamento....
+ Atualidade, novos profissionais
+ Referências
+Marcar
+tópico
+
+     
+
+Primeiros passos: Planejar....
+Planejar é uma palavra que usa-se cotidianamente para se administrar uma tarefa, ou ainda em termos mais atuais refere-se a gestão e administração, que está relacionada com preparação, organização e estruturação, essencial na tomada de decisões e execução dessas mesmas tarefas.
+
+Planejar segundo conceitos de Gestão de Dados é uma disciplina em ascensão no Brasil que possuí a missão de tratar da melhor forma possível, através de seus profissionais, metodologias, processos e ferramentas os dados das empresas para que os mesmos tenham condições de serem transformados em conhecimento empresarial.
+
+Dados, na realidade é visto como matéria prima de uma cadeia (dado - informação – conhecimento – sabedoria). A evolução desta cadeia é fundamental para conseguir o que todas as empresas desejam: transformar dados em informações confiáveis e utilizá-las como fonte de conhecimento para tomar decisões com sabedoria.
+
+Deficiente visual
+Evolução - Dados a sabedoria
+Fonte: Livro Uma visão sistêmica e comentada do Data Management Body of Knowlegde (BMBK)
+O que focar para este planejamento....
+Segundo Carlos Barbieri e Fernanda Farinelli, o conceito foca na evolução, onde há o vinculo de diversas disciplinas, como por exemplo qualidade de dados, avaliação, gerência, melhoria, monitoração de seu uso, além de aspectos de segurança e privacidade. Como consequência as empresas deverão definir objetivos organizacionais e processos institucionalizados, onde deverão ser implementados dentro do equilíbrio fundamental entre TI e áreas de negócios. Por meio de procedimentos que englobam a GD, as empresas devem definir mecanismos que analisam os processos que se abastecem de ou produzem os dados, criando um sentido maior de qualidade conjunta entre esses dois elementos seminais (dados e processos) e contribuindo para a valorização desses ativos, através do pleno conhecimento da cadeia produtiva de informação e conhecimentos. Segundo o DMBOK (2009), a Governança de Dados se divide em duas atividades macro, Planejamento e Controle da Gestão dos Dados, etc.
+
+Neste quesito de planejamento, é importante salientar uma sequência de tarefas que irão levar a melhoria e aproveitamento dos dados (ativos) que existem na empresa, como descrito na sequencia:
+
+ATENÇÃO, IMPORTANTE
+Atenção aos itens a seguir, eles determinam um padrão de excelência no processo de planejamento
+
+- Entender as necessidades estratégicas de dados da empresa.
+
+- Desenvolver e manter uma estratégia de dados.
+
+- Estabelecer unidades organizacionais e papéis voltados para dados.
+
+- Identificar os Data Stewards (Gerente Estratégico de Dados).
+
+- Estabelecer as camadas de GD e de data stewards.
+
+- Desenvolver e aprovar Políticas, Padrões e Procedimentos de dados.
+
+- Revisar e aprovar a Arquitetura de Dados.
+
+- Planejar e patrocinar Projetos e Serviços de Gestão de Dados.
+
+- Estimar o valor dos Ativos de Dados e custos associados (Riscos).
+
+Para cada item acima citado, é importante destacar o que trabalhar nele.
+
+> Entender as necessidades estratégicas de dados:
+
+- Para onde vou (em temos de negócios), como vou, quando vou?
+
+- Que dados serão necessários nesse caminho?
+
+- Como obtê-los, como mantê-los?
+
+- Como garantir a sua qualidade?
+
+- Que áreas serão prioritárias no tratamento dos dados, baseado nas estratégias de negócios?
+
+- Para que segmentos vamos caminhar?
+
+- Big Data, sentiment analysis via redes sociais, etc.?
+
+> Desenvolver e manter a estratégia de dados:
+
+    Instanciar as ações para a obtenção dos dados, sua manutenção, sua qualidade, baseado nas necessidades estratégicas identificadas anteriormente.
+
+> Estabelecer unidades organizacionais e papéis para essas atividades de dados
+
+   Estruturas in-business (data stewards), estruturas in-TI (AD, DBA, etc.), estruturas táticas (CDO, DMO, gerencia os data stewards) e estruturas estratégicas (Comitê de GD, que define      regras, tira dúvidas, resolve impasses, etc.).
+
+> Identificar os Data Stewards
+
+Responsáveis, dentro da área de negócios, pelo controle e uso dos dados. Nos usuários, seriam figuras com amplo domínio de conhecimento desses assuntos. Tomarão conta daquele recurso, serão os responsáveis (liability) e gerenciarão o seu uso.
+
+>Estabelecer as estruturas organizacionais (camadas) para Gestão de Dados e de data stewards
+
+Envolve uma visão bem mais detalhada dos membros do Comitê de GD, principais Data Stewards, principais componentes do DMO, entre outros. Para as funções in-business, definir as áreas prioritárias (em função da estratégia) que deverão ter os seus stewards (gestores de dados). Há várias proposições possíveis de estruturas para GD.
+
+Deficiente visual
+Estruturação Governança de Dados
+> Desenvolver e aprovar políticas, padrões e procedimentos de gestão e governança de dados.
+
+Conhecendo o três dos P’s da GD. Políticas são as regras maiores, definidas em consenso com áreas envolvidas, todas aprovadas pelo Comitê e divulgadas. As políticas balizam as grandes direções. Padrões regulam formas de nomes, documentos, layouts, entre outros. Procedimentos são detalhes específicos de como fazer certas atividades e que se juntam a descrições de processos que serão desenvolvidos.
+
+> Revisar e aprovar a arquitetura de dados
+
+ Analisar a arquitetura de dados, formada em níveis conceituais gradativamente detalhados (assuntos, entidades de negócios, entidades de dados, relacionamentos, principais atributos, etc.) e mostrando a sua conexão com outras arquiteturas, como de negócios, de sistema, de processos, de tecnologia, entre outros. Observar que há um processo (corpo de conhecimento) focado em arquitetura.
+
+> Planejar e patrocinar projetos e serviços da Gestão de dados
+
+Definir os projetos mais prioritários para se começar a implementação dos conceitos de GD. Podem ser melhorias na integração de dados, na definição de arquiteturas, na segurança, em foco de dados não estruturados, em qualidade, entre outros. Serão definidos de acordo com as prioridades estratégicas dos negócios.
+
+> Estimar o valor dos ativos de dados e custos associados
+
+Trabalhar pelo custo negativo (riscos em imagem/reputação, compliance, etc.). Trabalhar em valoração relativa dos dados com relação aos outros recursos de um projeto e na aferição de valores que os competidores dariam por aqueles recursos de dados.
+
+Deficiente visual
+Gerenciamento de tarefas
+Atualidade, novos profissionais
+No mundo, os dados das organizações são, tratados como ativo importante. Para estas organizações os dados são considerados fluídos vitais que circulam por todos os processos, projetos, reuniões, produtos, serviços, ERP, SCM, GED, etc. Ou seja, em tudo que existe em uma organização – e não importa o tamanho, nem também a duração, e muito menos a complexidade – os dados estão presentes.
+Embora Tecnologia da Informação seja uma das áreas que mais apresenta inovação, uma coisa é certa: os dados não se auto gerenciam e, por isso, geram a necessidade de um profissional responsável pelo seu uso estratégico.
+
+EXERCÍCIOS, AGORA É HORA....
+Agora que você conhece mais um pouco dos conceitos sobre Gestão de Dados, realize os exercícios e confira como está seu desempenho.
+
+Quiz
+Exercício
+Planejamento da Gestão de Dados
+INICIAR 
+Referências
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft – Belo Horizonte
+
