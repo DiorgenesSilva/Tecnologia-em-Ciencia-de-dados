@@ -1,0 +1,161 @@
+Gestão da Arquitetura de Dados
+Demonstrar o processo de análise e desenvolvimento da arquitetura de dados
+
+NESTE TÓPICO
+ Trabalhando a Arquitetura de Dados...
+ Gestão de arquitetura de dados é o processo de definir e manter as especificações que:
+ A Arquitetura Corporativa de Dados inclui cinco grandes categorias de visualização:
+ Quando completa, uma Arquitetura de Dados traz vários benefícios para uma empresa.
+ Arquitetura Organizacional
+ A arquitetura organizacional inclui muitos modelos e artefatos relacionados:
+ Referências
+NESTE TÓPICO
+
+ Trabalhando a Arquitetura de Dados...
+ Gestão de arquitetura de dados é o processo de definir e manter as especificações que:
+ A Arquitetura Corporativa de Dados inclui cinco grandes categorias de visualização:
+ Quando completa, uma Arquitetura de Dados traz vários benefícios para uma empresa.
+ Arquitetura Organizacional
+ A arquitetura organizacional inclui muitos modelos e artefatos relacionados:
+ Referências
+Marcar
+tópico
+
+     
+
+Trabalhando a Arquitetura de Dados...
+Arquitetura de Dados pode ser exemplificada como o conjunto de componentes de dados e suas relações em uma empresa. Estes componentes podem são muitos e possuem diferentes níveis de abstração, tendo com partida o modelo conceitual de dados indo até o armazenamento físico, onde são representados os servidores de banco de dados. A Arquitetura de Dados descreve como os dados são processados, armazenados e utilizados pelas aplicações que processam as consultas e os dados, fornecendo assim  critérios para as operações com os dados, possibilitando que sejam projetados e também controlados os fluxos de dados das aplicações.
+
+Arquitetura de dados segundo DMBOK é um conjunto integrado de artefatos de especificação utilizada para definir os requisitos de dados, orientar a integração e controle dos ativos de dados, e alinhar os investimentos de dados com a estratégia de negócios.
+
+Possuí um conjunto integrado de diagramas em diferentes níveis de abstração, tem como componentes nomes formais de dados, definições de dados abrangentes, estruturas de dados eficazes, regras precisas de integridade de dados e documentação de dados robusta. Ela começa a ser valorizada quando suporta as informações necessárias de toda organização, com a padronização e integração se tem a Arquitetura de Dados Corporativos. Esta arquitetura dos dados corporativos é a maior parte da arquitetura da organização, onde os dados se integram com os negócios e a tecnologia organizacional. A arquitetura corporativa integra dados, processos, organização, aplicação, e arquitetura da tecnologia. Ajuda organizações a controlar a mudança e melhorar a eficácia, a agilidade, e a responsabilidade.
+
+Gestão de arquitetura de dados é o processo de definir e manter as especificações que:
+- Forneça um vocabulário padrão comum de negócios.
+
+- Expresse exigências estratégicas dos dados.
+
+- Esboce diagramas integrados de nível elevado para cumprir estas exigências.
+
+- Alinhe com a estratégia da organização e arquitetura de negócios relacionados.
+
+Deficiente visual
+Visão dos processos em Arquitetura de Dados
+Ao ser ter elementos que são utilizados em várias áreas de negócio ou várias aplicações distintas, este conjunto é denominado de Arquitetura Corporativa de Dados. A Arquitetura Corporativa de Dados é um componente da Arquitetura Empresarial de uma empresa e serve como um importante subsídio para alinhar os dados e processos de negócios com a estratégia da empresa.
+
+A Arquitetura Corporativa de Dados inclui cinco grandes categorias de visualização:
+Estratégia empresarial: representada pelas informações do âmbito estratégico da empresa, tais como: visão, missão, objetivos estratégicos, Cadeia de Valor e macroprocessos. Essas informações não são criadas pela Gestão de Dados, porém toda Arquitetura Corporativa de Dados deve estar alinhada com essas informações.
+
+Glossário corporativo: disponibiliza informações dos termos corporativos do negócio e dos termos comuns em Gestão de Dados.
+
+Modelos corporativos: representação dos modelos corporativos em camadas.
+
+Arquitetura de integração: relação dos mecanismos homologados de integração, padrões para consumos dos dados corporativos e catálogo de ativos de integração.
+
+Arquitetura de infraestrutura: relação da política de uso dos ambientes de banco de dados, servidores e esquemas onde estão armazenados os dados corporativos.
+
+VISÃO SOBRE OS ASPECTOS
+Perceba que os processos que envolvem o trabalho dentro deste ponto da Gestão de dados têm o destaque dos aspectos que irão impactar nos resultados iniciais. Prestem atenção nos tipos de arquitetura envolvidos neste processo.
+
+A arquitetura de dados corporativos é um conjunto integrado das especificações e documentos.
+
+Inclui 3 principais categorias:
+
+1- Modelo de dados Corporativos: o coração e a alma da arquitetura de dados da Organização.
+
+2. A análise da cadeia de valor da informação: Alinha os dados com processos de negócios e outros componentes da arquitetura da organização.
+
+3. Relaciona entregas da arquitetura de dados: Incluindo a arquitetura de banco de dados, arquitetura de integração de dados, arquitetura de business intelligence/data warehousing, a arquitetura de conteúdo de documento(s) e arquitetura de meta-dados.
+
+A organização da arquitetura de dados corporativos define os termos padrão para as coisas que são importantes para a organização, suficientemente importantes para executar o negócio. O mais importante e benéfico aspecto da arquitetura de dados corporativa é estabelecer um vocabulário comum de negócios das entidades de negócios e atributos de dados da organização. 
+
+Deficiente visual
+Categorias da Arquitetura de dados
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+OBSERVE COM ATENÇÃO.....
+DMBOK  -  Manual de com grande importância que demonstra passo a passo como implementar a Governânça e Gestão dos Dados
+
+O livro UMA VISÃO SINTÉTICA E COMENTADA DO DMBOK, é recurso que resume o DMBOK, também de importância relevante para que já conhece do assunto, pesquise um pouco sobre eles....
+
+Segundo o DMBOK (2009) em UMA VISÃO SINTÉTICA E COMENTADA DO DMBOK, o objetivo da Gestão da Arquitetura de Dados é:
+
+Entender as necessidades de informações da empresa: levantar informações, criando visões de dados por áreas/assuntos. Os dois primeiros são focos da visão corporativa e os três últimos estão dentro da visão de aplicações:
+
+Modelo de Entidades de negócios por subárea, numa visão de alto nível, com menção das principais Entidades de Negócios daquele domínio.
+Modelo conceitual de dados: mais detalhado que o anterior, contemplando visões de relacionamentos e dos principais atributos envolvidos.
+Modelo lógico de dados: mais detalhada que a anterior, contemplando as Entidades de Dados, com seus relacionamentos e seus atributos, normalizados, numa visão relacional.
+Modelo Físico, visão de implementação, dentro da restrição do SGBD/tecnologia. Visão do implementador, com aspectos relacionados com SQL/DDL, Views, etc. ou de implementações pelos SGBD ou FMS (Hadoop, NOSQL), entre outros.
+Desenvolver e manter o modelo de dados corporativo: manutenção dos dois níveis anteriormente definidos, em função do desenvolvimento dos modelos da aplicação. O grande objetivo é manter a coerência do significado dos dados (Entidades, relacionamentos) para toda a empresa. Aqui começa uma parte da definição semântica das Entidades de Negócios, com extensões semânticas de classificação e agregação, se necessário.
+
+Analisar e compatibilizar o MCD com outros modelos da empresa: Aqui ao grande foco é manter a coerência entre o modelo de negócios da empresa (como grande balizador) e os modelos de dados, modelos de processos, modelos de sistemas/aplicações, modelo de tecnologia e modelo de organização. Isso significa que uma Entidade de Negócios (modelo conceitual de dados) será criada, atualizada, mantida e eliminada por processos implementados em sistemas, apoiados em tecnologia e sob a responsabilidade de áreas (organização). É o dado se integrando nas várias dimensões da empresa.
+
+Definir e manter a arquitetura de tecnologia de dados: Envolve um framework que contemple os elementos de tecnologias que compõem o domínio de dados da empresa. Por exemplo, os SGBD´s tradicionais, os SGBD´s envolvidos em projetos de ERP, que podem ser diferentes, outros tipos de softwares usados para tratamento de Big Data, como Hadoop e NoSQL, utilitários desses componentes, ferramentas de modelagem de dados, ferramentas de qualidade e de profiling de dados, ferramentas de metadados, como dicionários, catálogos, glossários, entre outros. Tudo que tangencia a tecnologia que se usa para dados.
+
+Definir e manter a arquitetura de integração de dados: Envolve uma visão acerca das ferramentas e soluções de integração de dados. Inclui o envolvimento dos sistemas/aplicativos onde os dados são gerados, transformados, consumidos, eliminados, dentro do conceito de data lineage (linhagem de dados). Linhagem de dados é uma espécie de visão dos dados, desde a sua origem, observando o seu ciclo de vida. Dessa forma, essa recomendação do DMBOK inclui sistemas e informações e envolve papéis que fazem manipulações (CRUD) de dados e suas transformações a fim de torná-los adequados ao uso da empresa.
+
+Definir e manter a arquitetura de DW e BI: No fundo é um detalhamento dos itens anteriores, com foco em Business Intelligence e Data Warehousing. Envolve as estruturas de armazenamento (DW, Dmarts, ODS), camadas de transformação e integração (ETL) e camadas de consumo de informações (Relatórios, OLAP, dashboards, estudos de inferência por técnicas de analytics, data mining, etc.).
+
+Definir e manter taxonomias e nomes (namespaces) como padrões corporativos: Envolve a estruturação de taxonomias como, por exemplo, representações abstratas de classes/subclasses, heranças, ou composição e agregação, estendendo a semântica definida nos modelos conceituais e aprimorando o seu entendimento. É uma forma de se entender os dados do ponto de vista mais de suas classificações hierárquicas e de relacionamentos semânticos. Com relação aos nomes (namespaces), envolve a definição de termos padrões que objetivam a consistência dos elementos entre os modelos da empresa.
+
+Definir e manter uma arquitetura de metadados: Envolve a definição do fluxo de metadados, a integração entre os variados tipos de depósitos de metadados (catálogos, dicionários, glossários, etc.). Sugere a gerência sobre como os metadados são criados nas suas fontes, controlados, integrados e acessados. Visa a garantir a coerência na referência semântica dos metadados, em todos os níveis (dados no ambiente negocial, transacional e também dado no ambiente analítico de BI) e em todas as suas fontes.
+
+Deficiente visual
+Modelo da Arquitetura de Dados Corporativo
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Quando completa, uma Arquitetura de Dados traz vários benefícios para uma empresa.
+Melhor compreensão da estratégia da empresa e alinhamento das soluções de dados com a estratégia atual.
+Identificação clara dos requisitos de dados estratégicos.
+Fornecer um vocabulário padrão de termos comuns ao negócio.
+Melhor entendimento dos dados corporativos e suas relações, obtidas através da leitura dos modelos de dados corporativos.
+Definir projetos integrados para atender aos requisitos estratégicos.
+Reutilização de dados já existentes para consumo das demais aplicações.
+Estabelecimento de formas padrão para consumo dos dados corporativos.
+Inventário dos dados corporativos.
+As estratégias de construção e diagramação de uma arquitetura são várias. Cabe a cada empresa, através de seus profissionais de Gestão de Dados, escolher a melhor estratégia. Entre elas:
+
+Uma arquitetura única de modelo corporativo com as visões conceituais ou lógicas em uma única representação. Geralmente este tipo de abordagem é adotado por empresas com um conjunto pequeno de ativos de dados corporativos. Não há preocupação em manter na arquitetura os componentes de dados não corporativos.
+
+Uma arquitetura de modelos corporativos divididos em camadas interligadas (conceitual, lógica e física), formadas por elementos de dados corporativos. Este é o tipo de abordagem mais usual nas empresas. A representação do mapeamento entre as camadas é obrigatória para manter a rastreabilidade entre os elementos. Tal como a abordagem anterior, não ha uma preocupação em manter na arquitetura componentes de dados não corporativos.
+
+Uma arquitetura corporativa adotando uma das duas abordagens anteriores mais arquiteturas específicas, de dados não corporativos, formadas por elementos de dados compartilhados ou dados específicos de determinadas áreas ou aplicações. Este tipo de abordagem é o mais custoso, tanto para criar quanto para manter atualizadas as arquiteturas. Por estas razões é a abordagem menos adotada nas empresas.
+
+Deficiente visual
+Gestão, Governança, Gerenciamento de dados
+Arquitetura Organizacional
+Esta arquitetura é um conjunto integrado de especificação de modelos, artefatos de negócios e TI refletindo a integração da empresa e os seus requisitos de normalização. Ela define o contexto da integração de negócios para dados, processos, organização e tecnologia, bem como o alinhamento de recursos da empresa com as metas da empresa. Esta arquitetura engloba a arquitetura de negócios, a arquitetura de sistemas de informação. Sua função é demonstrar uma abordagem sistemática para à gestão dos ativos de informações e sistemas, atendendo a requisitos estratégicos do negócio, permitindo a gestão do portfólio de projetos da organização. Sua função é apoiar a tomada de decisões estratégicas, contribuindo para a mudança na gestão, traçando o impacto da mudança organizacional nos sistemas, e o impacto sobre os negócios decorrentes de alterações em sistemas.
+
+A arquitetura organizacional inclui muitos modelos e artefatos relacionados:
+Arquitetura da informação: entidades de negócios, relacionamentos atributos, definições, valores de referências.
+
+Arquitetura de processo: funções, atividades, fluxo de trabalho, eventos, ciclos, produtos e procedimentos.
+
+Arquitetura de negócios: metas, estratégias, papéis, estruturas organizacionais, localização.
+
+Arquitetura de Sistemas: aplicações, componentes de software, interface e projetos.
+
+Arquitetura de tecnologia: Redes, hardware, plataformas de software padrões, protocolos.
+
+Artefatos de analise do valor da cadeia de informação: mapeando as relações entre dados, processos de negócios, sistemas e tecnologia. 
+
+ATENÇÃO - EXERCÍCIOS
+Agora que foi percebido que o contexto tem muitos detalhes esta na hora de verificar o que foi entendido
+INICIAR 
+Referências
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft – Belo Horizonte
+
+Complementar
+
+Bernard, Scott A. An Introduction to Enterprise Architecture, an Edition. Anthºrhouse.2005. ISBN 1-420-88050-0. 351 pages.
+
+Brackett, Michael. Data Sharing Using A Common Data Architecture. New York: John Wiley & Sons, 1994. ISBN 0-471-30993-1. 478 pages.
+
+Carbone, Jane. IT Architecture Toolkit. Prentice Hall, 2004. ISBN 0-131-47379-4. 256 pages, Cook, Melissa. Building Enterprise Information Architectures: Re-Engineering Information Systems. Prentice Hall, 1996. ISBN 0-134-40256-1. 224 pages.
+
+Hagan, Paula J., ed. EABOK: Guide to the (Evolving) Enterprise Architecture Body of Knowledge. MITRE Corporation, 2004. 141 pages. A U.S. federaIIy-funded guide to enterprise architecture in the context of legislative and strategic requirements. AvaiIabIe for free download at http://www.mitre.org/work/tech papers/tech papers 04/04 0104/04 0104.pdf
+ 
+Inmon, W. H., John A. Zachman, and Jonathan G. Geiger. Data Stores, Data Warehousing and the Zachman Framework: Managing Enterprise Knowledge. McGraw-Hill, 1997. ISBN 0-070-31429-2. 358 pages.
+
