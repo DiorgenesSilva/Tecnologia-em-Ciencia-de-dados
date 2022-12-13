@@ -1,0 +1,144 @@
+Gestão da Operação de Dados
+Conhecer o fluxo de trabalho na operação de dados
+
+NESTE TÓPICO
+ O processo da operação de dados envolve o profissional mais imporante de banco de dados, o DBA
+ Suporte dado a base de dados
+ O DBA é o guardião de todas as alterações no banco de dados.
+ O objetivo da Gestão de Operações de Dados,
+ Referências
+NESTE TÓPICO
+
+ O processo da operação de dados envolve o profissional mais imporante de banco de dados, o DBA
+ Suporte dado a base de dados
+ O DBA é o guardião de todas as alterações no banco de dados.
+ O objetivo da Gestão de Operações de Dados,
+ Referências
+Marcar
+tópico
+
+     
+
+O processo da operação de dados envolve o profissional mais imporante de banco de dados, o DBA
+Passos a considerar neste tópico em relação a gestão dos dados:
+
+Proteger e garantir a integridade dos ativos de dado estruturados.
+
+Gerenciar a disponibilidade dos dados ao longo do seu ciclo de vida.
+
+Otimizar a performance das operações no banco de dados.
+
+Esta parte é direcionada ao banco de dados, seus profissionais e pessoas envolvidas diretamente neste desenvolvimento. Os DBAs desempenham um papel primordial na critica dos acontecimentos.
+
+Suporte dado a base de dados
+O suporte ao banco de dados é o coração da gestão de dados, e é fornecido pelos DBAs. O papel do DBA é o mais estabilizado e o mais praticado dos papéis de um profissional de dados, as práticas dos administradores de banco de dados são, talvez, as mais maduras de todas as práticas de gestão de dados. DBAs desempenham um papel dominante na gestão de operações com dados, bem como em gestão de segurança de dados. DBAs também desempenham papéis críticos em desenvolvimento de dados, em especial na modelagem de dados física e em projetos de banco dados e como suporte nos ambientes de desenvolvimento e teste de banco de dados.
+
+ 
+
+
+Gestão de operação de dados
+Fonte: DAMA - DMBOK
+Este processo de desenvolvimento tem como realização de responsabilidades chamadas de primárias dos DBAs na produção:
+
+Garantir o desempenho e a confiabilidade do banco de dados, incluindo o ajuste de desempenho, monitoramento e relatórios de erro.
+Implementar mecanismos apropriados de backup e recuperação para garantir a recuperação dos dados em qualquer circunstância.
+Implementar mecanismos de agrupamento e paradas em banco de dados se a disponibilidade contínua dos dados for uma exigência.
+Implementar mecanismos para arquivar as operações de dados gerenciadas.
+As responsabilidades deste profissional – DBA de produção:
+
+1. Um ambiente de banco de dados de produção, incluindo uma instância do SGBD e seus servidores de suporte, de um tamanho e capacidade suficientes para assegurar um desempenho adequado, configurado para O nível adequado de segurança, confiabilidade e disponibilidade. A administração de sistemas de banco de dados é responsável pelo ambiente SGBD.
+
+2. Mecanismos e processos para controlar implementações e alterações no banco de dados no ambiente de produção.
+
+3. Mecanismos adequados para assegurar a disponibilidade, integridade e recuperação dos dados em resposta a todas as circunstâncias possíveis que possam resultar em perda ou corrupção de dados.
+
+4. Mecanismos adequados para detectar e reportar qualquer erro que ocorra no banco de dados, no SGBD, ou no servidor de banco de dados.
+
+5. Disponibilidade do banco de dados, recuperação e desempenho de acordo com o nível de serviço acordado.
+
+Implementação e controle dos ambientes da base de dados, possui tarefas que devem também ser desempenhadas pelos DBAs, como:
+
+- Atualização do software do SGBD;
+- Configurar as várias versões e mantê-las funcionando, realizar teste, criar instâncias, gerenciar as migrações de dados;
+- Conhecer as tecnologias referentes aos dados e administrá-las;
+- Configurar os parâmetros de um SGBD;
+- Gerenciar as conexões, segurança;
+- Alinhar a estrutura e funcionamento com outros profissionais como os de redes e de tecnologia da informação;
+- Administrar os dispositivos de armazenamento, visar o melhor custo benefício, gerenciar o tempo de recuperação dos dados.
+
+Configuração da arquitetura de um SGBD
+DESTAQUE
+Observe que o DBA tem função importante nesta fase....
+
+O DBA é o guardião de todas as alterações no banco de dados.
+Enquanto muitas partes podem solicitar mudanças, o DBA define as exatas mudanças a serem feitas no banco de dados, implementa e controla as alterações. DBAs devem usar um processo controlado documentado e auditável para promover as alterações no banco de dados dos aplicativos nos ambientes de produção visando garantir a qualidade ou certificação (QA) e, em parte devido à Lei Sarbanes-Oxley e outras exigências regulamentares. Uma requisição de serviço gerencial ou requisição de alteração normalmente inicia o processo. Em muitos casos, DBA deve ter um plano para reverter às alterações em caso de problemas.
+
+Fonte Externa – Obtenção de dados
+
+Muitas organizações obtêm alguns dados de fontes externas de terceiros, tais como listas de clientes potenciais compradas de um corretor de informações, ou dados de produtos fornecidos por uma empresa especializada. Os dados podem ser licenciados ou fornecidos, gratuitamente; os dados poder ser fornecidos em um número de diferentes formatos (CD, DVD, EDI, XML, RSS feeds, arquivos de texto); são fornecidos somente uma vez ou atualizado regularmente por meio de um serviço de assinatura. Algumas aquisições exigem acordos legais. Uma abordagem para conseguir a aquisição de dados, centraliza a responsabilidade pelo serviço de assinatura dos dados com os analistas de dados. O analista de dados terá  de documentar a origem dos dados externos no modelo lógico de dados e dicionário de dados, Um desenvolvedor pode projetar e criar scripts ou programas para ler os dados e carregam em um banco de dados. O DBA será responsável pela execução dos processos necessários para carregar os dados no banco de dados e/ou torna-lo disponível para o aplicativo.
+
+Recuperação de dados – O que fazer?
+
+Os profissionais envolvidos, DBAs devem ter a certeza de um plano de recuperação de dados foi criado para todas as bases de dados e servidores de banco de dados, dando atenção a todos os possíveis cenários que podem resultar em perda ou corrupção dos dados. Alguns itens devem ser lembrados:
+
+- Perda do servidor físico de banco de dados;
+
+- Perda de um ou mais dispositivos de armazenamento em disco.
+
+- Perda da base de dados, incluindo a base de dados mestre do SGBD, banco de dados de armazenamento temporário, log de segmento de transações, entre outros.
+
+- Corrupção do banco de dados ou índice de páginas de dados.
+
+- Perda de banco de dados ou segmento de log do arquivo de sistema.
+
+- Perda de banco de dados ou log de transações do arquivo de backup.
+
+Backup e Recuperação de dados
+
+A realização de backups e recuperação de dados deve estar prevista, com a realização de backups regulares dos bancos de dados, para bancos de dados OLTP O SLA para o banco de dados deverá incluir um acordo com os proprietários dos dados quanto a frequência de realização destes backups. Ponderando a importância dos dados contra o custo de protegê-lo. Para grandes bancos de dados, backups frequentes podem consumir grandes quantidades de armazenamento em disco e recursos do servidos. Pelo menos uma vez por dia, faça um backup completo de cada banco de dados.
+
+Outras opções de proteção de dados incluem clusters de servidores, nos quais as bases de dados compartilham uma série de discos, que caso um servidor físico ficar inoperante outro deverá assume as suas funções, e virtualização de servidores onde a proteção contra paradas ocorre entre instâncias de servidor virtual que residem em dois ou mais maquinas fracas.
+
+A maioria dos SGBDs suportam backups em tempo real do banco de dados (quentes) backups feitos enquanto os aplicativos estão em execução. Quando algumas atualizações ocorrem em trânsito, eles irão em frente até a conclusão, ou reverter quando for tem recarga do backup. Uma alternativa é efetuar um backup off-line (frio), isto é quando o banco de dados está sem uso. No entanto, isto pode não ser uma opção viável se existir a necessidade de que os bancos de dados estejam permanentemente disponíveis.
+
+O DBA também, quando necessário, deve recuperar dados perdidos ou danificados, recarregando-os quando necessário e de backups e log de transações visando recuperar o máximo de dados possível.
+
+Deficiente visual
+Arquitetura do SGBD
+O objetivo da Gestão de Operações de Dados,
+segundo o DMBOK é planejar, controlar a apoiar os ativos de dados ao longo do seu ciclo de vida, indo desde a criação e aquisição (obtenção) até o arquivamento final (archiving) e eliminação (purge). A estrutura é:
+
+Suporte a bancos de dados:
+
+• Implementar e controlar ambientes de Bancos de Dados: significa ter controles sobre os possíveis diversos ambientes de SGBD´s da empresa, suas várias instâncias, tanto de SGBD quanto de tecnologias correlatas, gerência e conhecimento de parâmetros e afinamento de SGBD e correlatos, controle de sua conectividade (com outros SGBD em ambientes distribuídos, ou com outras camadas), ajuste e afinamento de outras camadas correlatas que dialogam com o SGBD e controle do ambiente de data storage usado pelos SGBD´s e produtos correlatos.
+
+• Obter dados originados de fontes externas: Controle de aquisição dos dados obtidos de fontes externas (na forma de CD, DVD, EDI, XML, RSS, etc.), como vem (licenciados ou contratos) de onde vem (fontes), com qual periodicidade chegam, dados de contrato com fornecedores, SLA com o fornecedor, entre outros; e registro no modelo lógico/conceitual de dados.
+
+• Planejar para recuperação de dados (recovery): Planejamento das atividades de backup e recovery, com definição de procedimentos, periodicidades, tipos de backups (integral, incremental), tipos de mídia destino, SLA definido para tempos máximos de recuperação, tipos de perdas, tipos de recuperação, tipos de arquivos a serem resguardados (BD, Logs, cópias lógicas, cópias físicas, etc.).
+
+• Realizar Backup e Recovery de Bancos de Dados: Instanciação do plano definido acima, com a criação das backups, logs de transações, estratégias de imagens em discos RAID, etc.
+
+• Estabelecer níveis de serviços relacionados à performance de Bancos de dados: SLA definido para a tempo de resposta de BD, de algumas transações chaves, de jobs batchs de apoio, como ETL, de tempo de recuperação de BD, de interrupções físicas, lógicas, etc. • Monitorar e ajustar aspectos de performance de Bancos de Dados: Realizar acompanhamento proativo (preventivamente) e reativo (após incidentes). Envolve aspectos de gerência de tempo de resposta ao usuário, provenientes das mais variadas causas-raiz (problemas de codificação de SQL, comandos, falhas de projetos de bancos, ausência de indexações corretas, problemas provenientes de desatualização de estatísticas usadas pelo otimizador de pesquisas, etc.). Associado a conceitos de processos do ITIL, MPS-SV, entre outros, para controle de incidentes e problemas.
+
+• Planejar a retenção de dados: Planejar a forma, tempo e tipo de retenção, transferência para mídias secundárias e de eliminação de dados, de acordo com políticas de Governança de dados e/ou aspectos regulatórios.
+
+• Arquivar, reter e eliminar dados: Instanciação do Plano de retenção de dados definido anteriormente.
+
+• Suportar aspectos de Bancos de Dados especializados: Entender que hoje há uma grande variedade de sistemas gerenciadores de bancos de dados e de FMS (File Management Systems), cada qual disponível para certos tipos de necessidades: OODBMS (SGBD para Bancos orientados a objetos), XML, NOSQL (para dados semi ou não estruturados), Hadoop/Map Reduce para armazenamentos de petavolumes, Bancos de dados de armazenamentos dimensionais, entre outros. Para detalhes sobre Bancos de Dados NoSQL
+
+Gerência de Tecnologia de Dados:
+
+• Entender os requisitos tecnológicos de dados: Como em qualquer solução a ser desenvolvida, entender primeiramente o problema posto, quais as limitações das tecnologias colocadas e existentes, quais os requisitos específicos de HDW para aquela tecnologia de dados, quais os requisitos de sistema operacional, os de conectividade, as habilidades do “peopleware” envolvido, as implicações de custo e se há equivalentes no domínio de softwares livres.
+
+• Definir arquiteturas tecnológicas de dados: Significa que tipo de software será necessário em cada camada relacionada com dados: BD Convencionais, BD especiais (Georreferenciados, XML, NOSQL para big data, FMS, Bancos de Dados multidimensionais, etc.) e que outras camadas são necessárias: integração, ferramentas de modelagem, BI, ETL, virtualização de servidores, suites de testes, camadas para geração de dados, entre outros.
+
+• Avaliar tecnologias de dados: Inclui a análise de alternativas tecnológicas de dados. Isso pode ser feita por um processo de Gerência de Decisão (GDE), no modelo MPS.BR ou DAR (CMMI), envolvendo a definição de critérios e pesos para a melhor opção, benchmarks, visitas, provas de conceito, etc.
+
+• Instalar e administrar tecnologias de dados: Na realidade, é a instanciação dos dois últimos itens anteriormente discutidos.
+
+• Controlar e acompanhar aspectos de licenças de tecnologia de dados: Considerar a importância do controle de licenças de uso de SGBD, de ferramentas de BI, de ferramentas de integração, de geradores de relatórios, de cubos, de mining, entre outros; visando preservar aspectos legais e de controle de custo.
+
+• Suportar o uso e as dúvidas (pendências) sobre tecnologia de dados: Aqui estão concentradas as ações de apoio, suporte e resolução de incidentes associados à camada de dados, com processos, por exemplo, do modelo ITIL, ou MPS-SV, com detalhamento de níveis de apoio. Passa também pela escolha adequada e pelo treinamento ministrado visando à utilização daquela tecnologia de dados.
+
+
+
