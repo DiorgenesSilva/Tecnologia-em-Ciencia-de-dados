@@ -1,0 +1,83 @@
+Desenvolvimento de Dados
+Conhecer o desenvolvimento dos processos voltados aos dados
+
+NESTE TÓPICO
+ Trabalhar com análise de dados e gerar informação é uma das atividades exercida por um profissional de gestão...
+ Modelagem de dados – Formatos e estilos
+ Referências
+NESTE TÓPICO
+
+ Trabalhar com análise de dados e gerar informação é uma das atividades exercida por um profissional de gestão...
+ Modelagem de dados – Formatos e estilos
+ Referências
+Marcar
+tópico
+
+     
+
+Trabalhar com análise de dados e gerar informação é uma das atividades exercida por um profissional de gestão...
+O trabalho de desenvolvimento de dados tem início na análise, depois o foco é o projeto, a implementação, implantação e manutenção de soluções de dados para maximizar o valor dos recursos de dados para a organização. Desenvolvimento de dados é um subconjunto das atividades do projeto dentro do ciclo de desenvolvimento de sistemas (SDLC) concentrado na definição de requisitos de dados, o projeto dos componentes da solução de dados e a implementação destes componentes. Os componentes da solução de dados primários são bancos de dados e outras estruturas de dados. Outros componentes de- solução de dados incluem produtos de informação (telas e relatórios) e interfaces de acesso a dados.
+
+No processo de desenvolvimento os envolvidos no processo que formam a equipe devem colaborar uns com os outros para a eficaz solução do projeto:
+
+Os gestores de dados de negócio e especialistas fornecem os requisitos do negocio para os dados e informações, incluindo regras de negócio e expectativas sobre a qualidade de dados. Em seguida, confirmam se estes requisitos foram atendidos.
+
+Arquiteto de dados, analistas e administradores de banco de dados têm responsabilidade primária pelo projeto de banco de dados. Administradores de banco de dados colaboram com desenvolvedores de software para definir os serviços de acesso a dados em implementações em camadas de arquitetura orientada a serviço (SOA).
+
+Arquitetos e desenvolvedores de Software (tanto de aplicação quanto os especialistas em integração de dados) assumem a responsabilidade primária de capturar os dados e o projeto de utilização dentro de programas, bem como a interface do usuário do projeto para produtos de informação (telas e relatórios impressos).
+
+MATERIAL COMPLEMENTAR
+ATENÇÃO
+Preste muita atenção nos processos existentes neste tópico
+
+No processo que envolve o ciclo de desenvolvimento, algumas atividades devem ser desenvolvidas, não existe um esboço que padronize os estágios, mas existem algumas atividades e especificações que podem auxiliar no processo:
+
+Planejamento de Projeto, incluindo a definição do escopo e justificativa base em de negócios.
+Análise de Requisitos.
+Projeto de solução.
+Projeto detalhado.
+Construção de componentes.
+Testes, com unidade, integração, sistema, desempenho e aceitação.
+Preparação para implementação com documentação e treinamento.
+Instalação do piloto e roll-out.
+Muitas organizações têm adotado métodos SDLC que integram os métodos e técnicas de desenvolvimento de sistemas em uma abrangente abordagem para o desenvolvimento de sistemas. Métodos guiam desempenho e projeto de planejamento desenvolvimento de sistemas. A maioria dos métodos recomenda tarefas detalhadas e técnicas específicas para realização de atividades dentro de cada estágio do SDLC. Estas tarefas e técnicas criam uma série de entregas de modelagem de dados que leva em última instância a um sistema implementado. As saídas das tarefas iniciais servem como entradas e deste modo guiando as tarefas subsequentes. Diferentes métodos retratam o SDLC de maneiras diferentes, cada um com seu próprio uso distintivo dos termos. Alguns métodos definem uma abordagem em cascata para realizar estágios SDLC. Alguns métodos definem uma espiral, a abordagem iterativa. Estas soluções completas realizando o SDLC em estágios implementados em guiados por alguns planejamentos.
+
+Deficiente visual
+Ciclo de vida - Modelagem de dados
+Fonte: DAMA - DMBOK
+Modelagem de dados – Formatos e estilos
+Trabalhar com tecnologia envolve diversos assuntos e funções, os sistemas de informação capturam e entregam as informações (dados em um contexto relevante e em um período de tempo) para suportar funções de negócio. Estas funções vão desde planejamento estratégico até o desempenho operacional. Armazenar dados e Produtos de informação são parte integrante dos componentes de todo sistema de informação. Um projeto de desenvolvimento de sistemas eficaz mantém uma ênfase equilibrada em dados, processos e tecnologia.
+
+Vários métodos de modelagem de diferentes dados estão disponíveis, cada um usando convenções de diagramação ou estilos diferentes. A sintaxe para cada um desses estilos é um pouco diferente. Enquanto todos os modelos de dados usam de caixas e linhas, cada estilo usa diferentes símbolos e conteúdo. O Guia DAMA-DMBOK oferece apenas uma introdução muito breve a estes estudos.
+
+IE: O estilo mais comum de diagramação de modelagem de dados é a sintaxe de information engineering (IE), assim chamado porque foi popularizado por James Martin em seus influentes livros e treinamentos para a formação em Engenharia da Informação. A notação IE usa tridente ou ”pés de galinha”, juntamente com outros símbolos para representar cardinalidade.
+
+ 
+
+
+Diagrama - Modelagem de dados -
+lDEFlX: Esta é uma sintaxe de modelagem de dados alternativa desenvolvida originalmente para uso da Força Aérea dos EUA, usando círculos (alguns escuros, alguns vazios) e linhas (algumas sólidas, algumas pontilhadas) em vez de "pés de galinha” para comunicar significados semelhantes. Diagramas de processo lDEF0 muitas vezes usam a notação IDEFIX.
+
+ 
+
+
+Diagrama - Modelagem de dados - IDEF1X
+ORM (Object Role Modeling): é um estilo alternativo de modelagem com uma sintaxe que permite a especificação muito detalhada de relações de dados de negócios e regras. Diagramas ORM apresentam tanta informação que o consumo efetivo normalmente requer menor visão de área de interesse, com entidades de negócios menores em um único diagrama. ORM não é muito utilizada, mas seus defensores insistem em seus benefícios. ORM é particularmente útil modelagem de relacionamentos de negócios complexos.
+
+ 
+
+Deficiente visual
+Diagrama - Modelagem de dados - ORM
+UML (The Unified Modeling Language): A linguagem de modelagem unificada é conjunto integrado de convenções de diagramação para várias formas diferentes de modelar. GradyBooch, Ivar Jacobsen, e James Rumbaugh desenvolveram  a UML para padronizar a análise e projeto em orientação a objetos. A UML tem sido amplamente adotada, efetivamente atingindo este propósito. UML é amplamente utilizado em muitos métodos SDLC e foi adotada por muitas organizações de normalização.
+
+
+Diagrama - Modelagem de dados - UML
+O objetivo do Desenvolvimento de Dados, de acordo com o DMBOK, é projetar, implementar e manter soluções que satisfaçam as necessidades de dados da empresa. Compreende as atividades focadas em dados dentro do ciclo de desenvolvimento do sistema, incluindo a modelagem de dados, análise de requisitos de dados e projeto, implantação e manutenção de bancos de dados. A sua estrutura é:
+
+Modelagem de dados, análise e projeto da solução: Os itens “analisar os requisitos de informação, desenvolver/manter modelos conceituais/modelos lógicos e modelos físicos” são parte do processo tradicional de desenvolvimento de aplicações e dizem respeito ao levantamento dos requisitos (de dados e de sistemas), com o intuito de desenvolver os modelos necessários à compreensão das necessidades de informações da solução em projeto. Essa abstração de dados é construída em vários níveis, indo da visão conceitual (entidades, relacionamentos, alguns atributos), lógica (entidades, relacionamentos, atributos, com maior nível de detalhe e aspectos de normalização, domínios, chaves, etc.), física (detalhamento da abstração anterior, com incorporação de aspectos associados a índices, campos nulos, formas de armazenamento em coerência com o SGBD a ser usado, etc.). Como qualquer proposição, o DMBOK não sugere nenhuma abordagem específica, devendo a empresa centrar no “o quê” está sendo sugerido e não no “como”.
+
+Projeto detalhado de dados: Projetar os Bancos de Dados físicos se relaciona com colocar as estruturas de BD de acordo com as características do SGBD em questão. Significa se preocupar com aspectos de performance, armazenamento, particionamento de dados, colunas calculadas definidas como armazenadas, entre outros. Projetar (desenhar) os produtos de informação merece uma observação anterior: Produto de informação significa tudo aqui que se pode extrair direta ou indiretamente de bancos de dados (Relatórios operacionais, gerenciais, cubos, dashboards, scorecard, saídas na forma de documentos XML, portal, dados para integração com outros aplicativos, etc.). Assim, esse item foca nos projetos das saídas desejadas do sistema. Os serviços de acesso aos dados podem ser entendidos como a disposição com que os SGBD´s se encontram numa arquitetura ou topologia. Podem ser servidores “linkados”, acesso por Serviços (SOA), Message Broker (serviços assíncronos de mensagens), dispositivos tipo ODBC, JDBC, arquitetura de bancos distribuídos, como replicação, partições, distribuição, camadas de ETL que fazem leitura de bancos de dados, entre outros. Projetar os serviços de integração de dados representa a preservação de certos conceitos fundamentais do ambiente transacional, como ACID (Atomicidade, Consistência, Isolamento e Durabilidade) (ELMASRI, 2000). Os conceitos de Atomicidade estão associados a mecanismos ou serviços que garantem a execução conjunta ou integrada de comandos sob o mesmo escopo transacional, sacramentando todas as ações ou desfazendo-as completamente. A consistência é um conceito que garante os estados de consistência inicial ou final dos dados alterados pela transação. Os serviços de isolamento garantem que as transações executadas em paralelo não sofrerão ou interferirão nas outras, simulando um ambiente exclusivo de recursos, quando na realidade eles são compartilhados. O conceito de durabilidade se expressa nos serviços que garantem a manutenção do estado alcançado pela transação, depois que ela foi terminada, mesmo que ainda alguma intercorrência possa afetar os dados atualizados por ela. Além disso, também devem ser considerados os conceitos de integração numa visão mais ampla. Envolve, dessa forma, a definição de camadas de integração, como ETL, de persistência, etc.; e do uso de Stored Procedures, como camada de ações essenciais de dados como ADD, MOD e DEL de linhas /registros.
+
+Gerência da qualidade do modelo de dados e do projeto de Bancos de Dados: Envolve a definição e verificação de padrões a serem usados nos modelos, incluindo nomes de entidades, de atributos, de relacionamentos, simbologias de entidades, relacionamentos, atributos, cardinalidade, entre outros. A revisão é a verificação dessas aderências feitas por trabalhos de QA (Quality Assurance) ou por revisões por pares (VER/VAL), garantindo a compatibilidade entre os requisitos iniciais (de dados) e os elementos implementados. Inclui também a gerência de versionamento, é parte da gerência de configuração, garantindo a integridade de modelos, com controles de versionamento, controles de alterações (quem fez, porque, quando, e o que?), entre outros.
+
+A implementação de dados: Está diretamente associada com o desenvolvimento, implementação e testes (das partes de dados), dentro do contexto geral de teste dos sistemas. Os testes se referem aos elementos definidos anteriormente (Bancos de Dados e outros produtos de dados, serviços de dados, integração de dados, etc.). O conceito de validação de requisitos de dados é aplicado aqui com a avaliação dos pontos levantados na forma de requisitos (de informação) e a análise de sua devida transformação em produtos do sistema. Também se relaciona com migração, preparação e conversão de dados dentro do contexto do projeto, incluindo aspectos de implantação.
