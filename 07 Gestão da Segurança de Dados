@@ -1,0 +1,135 @@
+Gestão da Segurança de Dados
+Aprender os passos para esta gestão
+
+NESTE TÓPICO
+ Trabalhando a segurança....
+ Segundo DAMA - DMBOK...
+ Preocupar-se com:
+ Referências
+NESTE TÓPICO
+
+ Trabalhando a segurança....
+ Segundo DAMA - DMBOK...
+ Preocupar-se com:
+ Referências
+Marcar
+tópico
+
+     
+
+Trabalhando a segurança....
+Este tópico traz a tona conceitos e curiosidades que tratam sobre segurança, ele desperta muito interesse desde os executivos e gerentes até técnicos. Isto ocorre, principalmente, porque a segurança cobre diversas áreas, tais como: segurança física, infraestrutura tecnológica, aplicações e conscientização organizacional, cada uma delas com seus próprios riscos, ameaças potenciais, controles aplicáveis e soluções podem minimizar o nível de exposição ao qual a empresa está exposta, com o objetivo de garantir segurança para o seu principal patrimônio: a informação.
+
+Este tema remete a hackers e vulnerabilidades em sistemas, onde o principal entendimento é de que a empresa precisa de um bom antivírus, um firewall e ter todos os seus “patches” aplicados no ambiente tecnológico. Não há dúvida de que são questões importantes, porém não está limitada a somente esses pontos.
+
+O profissional deve estar atento a itens como: ambiente, tecnologia, processos e pessoas. Em cada uma dessas vertentes surgem diversas iniciativas, por exemplo, Políticas, Normas e Procedimentos, Controle de Acesso (Físico e Lógico), Auditoria, Questões Legais, Continuidade de Negócios, Criptografia, Gerenciamento de Incidentes, Segurança da Rede, Conscientização dos Usuários, dentre outros.
+
+Fundamentalmente a Segurança da Informação está calcada em três princípios básicos: Confidencialidade, Integridade e Disponibilidade.
+
+Confidencialidade, diferente de ser um segredo ou algo inacessível, é um conceito no qual o acesso à informação deve ser concedido a quem de direito, ou seja, apenas para as entidades autorizadas pelo proprietário ou dono da informação.
+
+Já o conceito de Integridade está ligado à propriedade de manter a informação armazenada com todas as suas características originais estabelecidas pelo dono da informação, tendo atenção com o seu ciclo de vida (criação, manutenção e descarte).
+
+E por fim, o conceito de Disponibilidade deve garantir que a informação esteja sempre disponível para uso quando usuários autorizados necessitarem.
+
+O estabelecimento de um programa de segurança passar sempre por ações que norteiem esses princípios. Tal modelo deve estar amparado por um sistema de gestão de segurança da informação que precisa ser planejado e organizado, implementado, mantido e monitorado.
+
+Muitas organizações não seguem esta abordagem no desenvolvimento, implementação e manutenção de seu programa de gestão de segurança. Isso é porque talvez não conheçam, ou entendam que essa abordagem é de difícil implementação ou uma perda de tempo.
+
+
+Gestão de segurança de dados
+Segundo DAMA - DMBOK...
+Para a gestão de segurança de dados  segundo o DAMA – DMBOK, é o planejamento, desenvolvimento e execução de politicas e procedimentos para proporcionar a devida autenticação, autorização, acesso e autoria nos ativos de dados e informações.
+
+A criação estabelece os mecanismos criteriosos de governança que devem ser fáceis de cumprir, numa base operacional diária por todos os envolvidos.
+
+O objetivo é possuir uma regulamentação de privacidade e confidencialidade com o negócio.
+
+Preocupar-se com:
+- As organizações devem reconhecer a privacidade e confidencialidade das  necessidades das partes interessadas, incluindo clientes, pacientes, estudantes, cidadãos, fornecedores ou parceiros de negócios. As partes interessadas são os proprietários de seus dados, e todos na organização devem ser responsáveis confiáveis destes dados.
+
+ - Regulamentações governamentais: As regulamentações do governo protegem a segurança de alguns dos interesses das partes interessadas. Algumas regulamentações restringem o acesso à informação, enquanto outras asseguram a abertura, transparência e responsabilização.
+
+- Preocupações proprietárias do negócio: Cada organização tem seus próprios dados para proteger, assegurando vantagens competitivas de propriedade intelectual e conhecimento íntimo das necessidades dos clientes e relacionamentos com parceiros de negócios é fundamental em qualquer plano de negócios.
+
+- Necessidades de legítimas de acesso: implementadores de segurança de dados também devem entender as necessidades legítimas de acesso a dados. A estratégia negócios, regras, e processos requerem das pessoas, em determinados papéis, que assumam a responsabilidade pelo acesso e manutenção de determinados dados.
+
+Agora a observação refere-se aos requisitos e os procedimentos que devem atender a quatro grupos básicos – quatro As:
+
+- Autenticação: Validar se os usuários são realmente quem dizem ser.
+
+- Autorização: Identificar as pessoas certas e conceder-lhes os direitos de privilégios para especifica e apropriada visão dos dados.
+
+- Acesso: Permitir a estes indivíduos e seus privilégios em tempo hábil.
+
+- Auditoria: Rever a ações de segurança e as atividades do usuário para garantir o cumprimento regulamentar e de conformidade com politicas e normas.
+
+
+Gestão de segurança de dados - Formação
+Fonte: DAMA - DMBOK
+Segundo o DMBOK, o objetivo da gestão da segurança de dados é planejar, desenvolver e executar as políticas de segurança e procedimentos a fim de prover a adequada autenticação, acesso e auditoria de dados e informações. A estrutura é:
+
+• Entender as necessidades de segurança de dados e os requisitos regulatórios associados.
+
+• Definir Política de segurança de dados.
+
+• Definir Padrões de segurança de dados.
+
+• Definir Procedimentos e controles de segurança de dados.
+
+• Gerenciar usuários, passwords e membros de grupos de usuários.
+
+• Gerenciar visões e permissões de acesso aos dados.
+
+• Monitorar autenticação de usuários e comportamento de acesso.
+
+• Classificar o grau de confidencialidade das informações.
+
+• Auditar a segurança dos dados. 
+
+ATENÇÃO - DETALHANDO A ESTRUTURA
+Preste atenção as descrições e seus detalhes
+
+Esclarecendo cada item:
+
+a. Entender as necessidades de segurança de dados e os requisitos regulatórios associados: Os requisitos regulatórios normalmente estão associados com modelos do tipo SOX, Basiléia-II, Clerp-Act of Australia, etc.
+
+b. Definir política de segurança de dados: São as regras e diretrizes maiores que devem ser seguidas pela empresa, em termos de segurança da informação. São normalmente definidas por administradores de segurança juntamente com gestores de dados e auditores de segurança externa ou interna. Deverá ser aprovada pelo Conselho de Governança de Dados (GD).
+
+c. Definir padrões de segurança de dados: Os padrões de segurança gravitam em torno de: padrões de senhas, grupos de usuários, padrões de criptografia, guia para acessos externos, protocolos de transmissão pela internet, requisitos de documentação das informações de segurança, padrões de acesso remoto, procedimentos para relato de incidentes de segurança, padrões de armazenamento e acesso de dados para portáveis e descarte (eliminação) desses tipos de equipamentos.
+
+d. Definir procedimentos e controles de segurança de dados: Significa, para o DMBOK, estabelecer um grau de detalhe sobre as diversas atividades, tanto de planejamento, operação quanto de controle da gestão de segurança de dados.
+
+e. Gerenciar usuários, passwords e membros de grupos de usuários: Analisar os diversos usuários, passwords, grupos de usuários, privilégios de usuários e/ou de grupos, tendo uma fotografia correta dessas entidades e de suas modificações no contexto da segurança de dados.
+
+f. Gerenciar visões e permissões de acesso aos dados: Envolve a aplicação dos conceitos de opt in e opt out, ou seja, as atividades de se garantir privacidade e segurança de dados por conceder especificamente permissões, através de definições explícitas (opt in) ou por se restringir ações específicas, dentro de um leque amplo de alternativas concedido por default (opt out). Também os conceitos de visões (views) de bancos de dados são elementos considerados nesse ponto.
+
+Deficiente visual
+Gerenciamento da segurança dos ativos - dados
+g. Monitorar autenticação de usuários e comportamento de acesso: Representa o acompanhamento dos acessos, com a observação de comportamentos atípicos ou de riscos, que deverão ser reportados aos envolvidos. Isso alimenta as futuras alterações de planos, projetos e políticas de segurança de dados. Alguns tipos de dados mais sensíveis poderão ser monitorados em tempo real, com possibilidade de alertas e mensagens para administradores, gestores, imediatamente ao seu acontecimento.
+
+h. Classificar o grau de confidencialidade das informações: Classificar o grau de confidencialidade, definindo hierarquias como: informação para acesso geral (todos podem ver); informações somente para uso interno (somente colaboradores podem acessar as informações que poderão ser mostradas ou discutidas no âmbito externo da empresa, porém não copiadas); informações confidenciais (não devem ser compartilhadas por toda empresa); informações confidenciais restritas (somente aberta para certos colaboradores previamente identificados com o status “devem saber”); informações confidenciais registradas (poucos têm acesso e há a estrita necessidade de assinatura de documento de responsabilidade pelo seu uso ou conhecimento).
+
+i. Auditar a segurança dos dados: Objetiva a realização de sessões de auditoria com o propósito de analisar, validar, aconselhar e recomendar políticas, padrões e atividades relacionadas à gerência de segurança de dados. Pode ser interna ou externa, porém feitas por pessoas sem nenhum envolvimento nos processos em auditoria.
+
+A implementação de segurança de dados dentro de uma organização começa com uma perfeita compreensão dos requisitos de negócios. A missão e a estratégia de negócios permeiam a estratégia de dados e devem ser o fator orientador do planejamento da política de segurança de dados. Prepare metas de curto e longo prazo para atingir uma equilibrada e efetiva função de segurança de dados.
+
+Para se cumprir uma politica de definição de segurança de dados baseado em requisitos de segurança de dados é a colaboração de esforço que envolve administradores de segurança de TI, gestores de dados, equipes de auditoria interna e externa, e do departamento jurídico. Profissionais de segurança de dados, por vezes, tomam uma abordagem rígida para segurança, e no processo pode causar impedimentos inconvenientes para os consumidores de dados. Desenvolver políticas de segurança de dados para que a conformidade seja mais fácil do que a não conformidade. O conselho de governança de dados deve revisar e aprovar a política de segurança dos dados de alto nível.
+
+Aa estratégias e padrões da tecnologia de informação também podem influenciar:
+
+As ferramentas usadas para gerenciar a segurança de dados.
+Padrões e mecanismos de criptografia de dados.
+Orientações de acesso para aos fornecedores e prestadores de serV1ços externos.
+Protocolos de transmissão de dados por meio da internet.
+Os requisitos de documentação.
+Padrões de acesso remoto.
+Procedimentos de notificação incidentes e quebra de segurança.
+Considerar a segurança física, especialmente com a explosão de dispositivos portáteis e mídia, para formular uma estratégia de segurança de dados efetiva. Padrão de segurança física como parte de políticas de TI da organização, fornecem orientações, incluindo:
+
+O acesso a dados por meio de dispositivos móveis.
+Armazenamento de dados em dispositivos portáteis tais como laptops, DVDs, CD drivers USB.
+A eliminação destes dispositivos em conformidade com as politicas de gestão de registros.
+Deficiente visual
+Hierarquia na gestão de dados
+Fonte: DAMA - DMBOK
