@@ -1,0 +1,180 @@
+Gestão de Dados Mestres e de Referência
+Entender a importância dos dados existentes para o negócio
+
+NESTE TÓPICO
+ Nesta etapa é de grande importãncia saber diferenciar a qual parte os dados se referem....
+ Dado de Referência
+ Dados Mestres
+ Arquitetura de gestão de dados de referência e de dados mestres
+ Referências
+NESTE TÓPICO
+
+ Nesta etapa é de grande importãncia saber diferenciar a qual parte os dados se referem....
+ Dado de Referência
+ Dados Mestres
+ Arquitetura de gestão de dados de referência e de dados mestres
+ Referências
+Marcar
+tópico
+
+     
+
+Nesta etapa é de grande importãncia saber diferenciar a qual parte os dados se referem....
+Trabalhar com processos que envolvam análise de dados em qualquer organização, com diferentes grupos, estes processos e os sistemas seus estarão usando a mesma informação. Na parte onde os dados criados em processos primários como resultado devem prover o contexto dos dados criados em processos posteriores. Os departamentos de Vendas, Finanças e Produção utilizam dados de vendas, mas cada departamento possui expectativas diferentes em relação a qualidade dos dados. Com necessidades voltadas para objetivos específicos muitas organizações precisam de aplicações específicas, cada uma com dados similares, porém em diferentes formatos com valores de dados inconsistentes. Essas inconsistências têm um impacto negativo dramático em toda a qualidade de dados.
+
+Observe a seguir as definições, segundo DAMA-DMBOK:
+
+ - Gestão de dados de referência é o controle sobre valores de domínio definidos (também conhecidos como vocabulários), incluindo o controle sobre termos padronizados, códigos e outros identificadores únicos, definições de negócio para cada valor dos códigos, relacionamentos de negócio dentro e entre listas de domínios, uso compartilhado de dados de referência, relevantes, consistentes, precisos, gerados em tempo e atualizados para classificar e categorizar os dados.
+
+- Gestão de dados mestres é o controle sobre os valores dos dados mestres para viabilizar o uso contextual consistente, compartilhado entre os sistemas, da mais acurada, gerada em tempo e relevante verdadeira versão sobre as entidades essenciais do negócio.
+
+ 
+
+Deficiente visual
+Seleção de dados
+Fonte: shutter
+A partir dos conceitos dados mestres e de referência possuem a função de prover o contexto para os dados transacionais, ou seja, no processo de uma transação de vendas o cliente identifica o empregado que realizou a venda e o serviço ou produto vendido, assim como dados de referência, esta situação da transação e os códigos contábeis aplicáveis. Outros dados de referência são derivados, tais como o tipo do produto e o local de venda.
+
+
+Gestão - Mestre e de Referência de dados
+Fonte: DAMA - DMBOK
+No decorrer do processo o custo e complexidade das etapas são determinados por direcionadores de negócio, com objetivo:
+
+- Melhorar a qualidade e integração de dados por meio das fontes de dados, aplicações e tecnologias.
+
+- Trazer uma visão de 360 graus da informação sobre partes de negócios, papéis e produtos, particularmente na geração de relatórios e análises mais efetivas.
+
+Este formato de gestão implica na identificação e desenvolvimento do armazenamento legítimo de cada produto, região, pessoa ou organização. Em alguns casos, um "sistema de registros" provê o dado definitivo de uma instância. Em algumas situações mesmo um sistema pode produzir acidentalmente mais de um registro para a mesma instância. Uma grande variedade de técnicas são usadas para determinar, da melhor forma possível, o dado mais preciso e atualizado da instância.
+
+Neste momento em diante deverão ser localizados os valores mais precisos, correntes e relevantes, com isso os dados mestres e de referência ficam disponíveis para compartilhamento entre sistemas de aplicações transacionais e Data Warehouse / Business Intelligence. De acordo com sistema alguns dados poderão ser replicados e propagados de uma base de dados para outra.
+
+Esta gestão de dados permite ser observada no ambiente transacional online (OLTP) quanto nos ambientes de Data Warehouse e Business Intelligence. Na prática de desenvolvimento seria ideal que todas as bases de dados transacionais usassem os mesmos registros, mas isso geralmente não acontece por infelicidade à maioria das organizações tem dados mestres e de referência inconsistentes em seus sistemas transacionais, tornando que outros sistemas como os sistemas de Data Warehouse identifiquem não somente o registro do sistema mais acreditável, mas também o mais preciso. Em sua grande maioria os custos de um projeto de sistema de Data Warehouse estão na limpeza e na reconciliação dos dados de fontes dispersas. Em algumas situações são mantidos dados de referência que raramente são alterados em tabelas dimensionais, como: hierarquias organizacionais e de produtos.
+
+Para compartilhar dados mestres e de referencia efetivamente entre as aplicações, as organizações precisam entender:
+
+1 - Quem necessita qual informação?
+
+2 - Qual dado está disponível nas diferentes fontes?
+
+3 - Como os dados das diferentes fontes diferem entre si? Quais valores são mais válidos (mais precisos, gerados em tempo, relevantes)?
+
+4 - Como as inconsistências em tal informação podem ser reconciliadas?
+
+5 - Como compartilhar os valores mais válidos de eficazmente e eficientemente?
+
+Dado de Referência
+Segundo DAMA-DMBOK, mais de um conjunto de valores de domínio de dados de referência podem se referir ao mesmo domínio conceitual. Cada valor é único dentro de seu domínio. Por exemplo, cada Estado deve ter:
+
+- Um nome oficial ("São Paulo")
+
+- Um nome legal ("Estado de São Paulo")
+
+- Um código de abreviação postal ("SP")
+
+- Um código da International Standards Organization (ISO) ("BR-SP“)
+
+- Um código padrão federal americano para processamento de informações - Brasil
+
+O conjunto de dados deve ser utilizado com objetivo de classificar ou categorizar outro dado. Em negócios e na prática criação de um banco de dados as regras de negócio usualmente ditam os valores dos dados de referência de acordo com um ou vários valores permitidos. Neste roteiro de criação e desenvolvimento o conjunto de valores de dados permitidos e por definição recebe o nome de domínio. Algumas organizações definem o valor de domínio internamente de acordo com sua regra de negócio, como Situação do Pedido: Novo - N, em Progresso - P, Fechado - F, Cancelado - C. No casos de valores externos ao sistema, podem existir padrões já previamente descritos por outros sistemas, como: padrões do governo ou da indústria, tal como os dois dígitos utilizado como padrão de abreviação para armazenamento da unidade federativa - UF.
+
+Em todas as organizações dados de referência existem virtualmente em todas as bases de dados. Tabelas de referência (algumas vezes chamadas de tabelas de código) se relacionam por meio de chaves estrangeiras com outras tabelas relacionais e as funções de integridade referencial dentro dos sistemas gerenciadores de banco de dados garantem que somente valores das tabelas de referência são utilizados em outras tabelas. Alguns conjuntos de dados de referência são simplesmente uma lista com duas colunas, com um código e uma descrição, como demonstrado a seguir.
+
+ISO - Referência para código de países
+Valor do Código	Descrição
+US	United States of América
+BR	Brasil
+ 
+
+Amostra de dados cruzada
+Código do Estado	ISO - Estado	Abreviação	Nome do estado	Nome formal do estado
+CA	US - CA	Calif.	Califórnia	Estado da Califórnia
+SP	BR - SP	S. Paulo	São Paulo	Estado de São Paulo
+MG	BR - MG	M. Gerais	MInas Gerais	Estado de Minas Gerais
+ 
+
+Dados Mestres
+Seguindo a literatura do DAMA-DMBOK, dados mestre é um dado sobre as entidades de negócio que provêm um contexto para as transações existente nos negócios organizacionais. Estes dados usualmente não possuem limitação em relação a valores de domínio pré-definido, mas as regras de negócio normalmente prescrevem seu formato e os intervalos permitidos dos valores dos dados mestres.
+
+Estes dados são caracterizados como mais precisos para serem utilizados nos sistemas transacionais estabelecendo um maior significado para seu contexto. Eles podem ser chamados de dados dourados pela sua relevância dentro da organização. Com o futuro das gestão, os conceitos podem se tornar mais abrangentes e significativos porém esta necessidade de ser tratar os dados mestres e de referência traz um alta qualidade nas técnicas e atividades para esta gestão.
+
+Alguns desafios desta gestão, segundo DAMA-DMBOK:
+
+- Determinação de valores mais precisos, para confiança;
+
+- Uso predominante destes dados (dourados) que qualquer outro dado.
+
+Ainda segundo o DAMA, o foco desta gestão dividido por área:
+
+1- Identificação de registros duplicados dentro e por meio das fontes de dados para construir e manter IDs globais e referências cruzadas associadas para permitir integração da informação.
+
+2- Reconciliação entre as fontes de dados e fornecendo o “registro dourado” ou a melhor versão da verdade. Estes registros consolidados fornecem uma visão consolidada das informações pelos sistemas e buscam resolver inconsistências em nomes e endereços.
+
+3. Fornecimento de acesso aos dados dourados entre as aplicações, seja por meio de leitura direta, ou pela replicação na alimentação de banco de dados OLTP e DW business Intelligence.
+
+O que as organizações devem descobrir:
+
+- O dado ou seu conjunto está descrevendo a mesma pessoa, organização, lugar ou coisa?
+
+- Onde estão estes dados armazenados? Qual é a fonte?
+
+- Quais dados são mais precisos? Qual fonte de dados é mais segura?
+
+- Quais são dados são mais atualizados?
+
+- Que dados são relevantes para necessidades específicas?
+
+- Quais dados e de que fontes que podem ser integrados para criar uma visão mais confiante?
+
+- Quais regras de negócios podem ser estabelecidas para automatizar a qualidade dos dados mestres produzindo a melhoria da precisão de correspondência e fusão de dados sobre a mesma pessoa, organização, lugar ou coisa?
+
+- Como identificar e restaurar os dados que foram combinados e fundidos de forma inadequada?
+
+- Como oferecer aos valores de dados dourados para outros sistemas corporativos como um todo?
+
+- Como podemos identificar onde e quando outros dados que não os dados dourados são usados?
+
+Fonte: DAMA-DMBOK
+
+Arquitetura de gestão de dados de referência e de dados mestres
+Em sistemas cujo sua função principal é a gestão de dados pode ter como fonte um banco de dados como objetivo os armazenamento de registro a serem trabalhados de maneira a serem transformados em um conjunto de dados de referência para tal, servindo como ponto central dos dados de referência, como objetivo de fornecer dados para outras aplicações. A leitura pelas aplicações podem ser dos dados mestres e de referência a partir do que se pode chamar de banco de dados de registro, assim com outras aplicações poderão realizar leituras e processamentos diferentes mas com os mesmos registros. As aplicações podem realizar a leitura diretamente de um banco de dados cuja função. 
+
+Deficiente visual
+Arquitetura - Dados de Referência
+Fonte: DAMA - DMBOK
+Em seu processamento de dados, os dados que estiverem replicados receberão uma atualização dos outros bancos de dados em tempo real (Síncronas, atualizações coordenadas). Entretanto os dados replicados são empurrados para bancos de dados de outras aplicações em tempo quase real (atualizações assíncronas) nas alterações que são feitas no banco de dados de registro. Um exemplo citado pelo DAMA-DMBOK é um sistema de reclamações de uma seguradora pode ser um pacote de aplicativos comprado juntamente com o banco de dados, com política de replicação de dados derivada da politica de registro do banco de dados como uma reclamação que é passada por meio de processamento, refletindo o estado corrente atual da política naquele ponto em certo tempo.
+
+Cada área de interesse em dados mestres provavelmente vai ter o seu próprio sistema único de registro.
+
+Para os sistemas integrados o importante é que somente o banco de dados mestre ou de referência deve ser a fonte para os dados replicados para o DW e DM.
+
+Deficiente visual
+Arquitetura - Dados de Mestre
+Fonte: DAMA - DMBOK
+A utilização de muitos bancos de dados de registros poderá criar um ambiente muito complexo de integração, uma alternativa é separar os dados de origem e destino para que cada banco gere seu conjunto de dados.
+
+Um exemplo de projeto de armazém de dados operacionais (ODS) contempla a padronização das interfaces e a eliminação do ponto a ponto, simplificando a manutenção de alterações. Em seu ponto central de dados existem uma complicação por não existir um sistema claro dos registros mestres, ou seja, são usados vários sistemas para fornecimento de dados, o ODS se torna a fonte primária (talvez não a única) de um DW, reduzindo sua complexidade de processamento para transformação de dados, limpeza e reconciliação.
+
+
+Arquitetura ODS
+Fonte: DAMA - DMBOK
+Uma arquitetura de integração de dados deverá fornecer os seguintes serviços:
+
+- Processamento: pedido de alteração, com revisão e aprovação;
+
+- Controle de qualidade: dados mestres e de referência;
+
+- Aplicação das regras de qualidade e correspondência;
+
+- Consistência em seus processamentos;
+
+- Meta dados: Mapeamento, transformação, programas e serviços, dar consistência;
+
+- Auditoria em erros, monitoramento de desempenho;
+
+- Consistência na replicação de dados.
+
+Em resumo:
+
+
+Integração de dados
+Fonte: DAMA - DMBOK
