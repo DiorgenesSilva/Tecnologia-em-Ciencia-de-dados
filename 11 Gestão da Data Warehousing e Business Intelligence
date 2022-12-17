@@ -1,0 +1,211 @@
+Gestão da Data Warehousing e Business Intelligence
+Conhecer a importância do Data Warehouse e Business Intelligence na gestão de dados
+
+NESTE TÓPICO
+
+ Data Warehouse - DW e Business Inteligence
+ Arquitetura e componentes de BI e DW
+ Descrição dos componentes (DAMA - DMBOK)
+ Alcance da informação (DAMA - DMBOK)
+ Ciclo de vida - desenvolvimento de negócios Kimball - Peças de xadrez
+ Componentes das peças de xadrez DW Kimball, visão da arquitetura DW / BI
+ Data Warehousing
+ Conceitos e terminologias em modelagem multidimensional
+ Referências
+Marcar
+tópico
+
+     
+
+Data Warehouse - DW e Business Inteligence
+O armazenamento de dados é algo necessário e vital para uma organização, o volume de armazenamento pode vir a tornar o negócio muito próspero para esta organização, mas é necessário estar atento ao seu formato, pois em dias atuais com um grande volume é necessário uma técnica diferenciada.
+
+O Data Warehouse é uma realidade presente em muitas empresas isso traz uma mudança na filosofia dos sistemas, tornando o uso de sistemas Inteligentes para os negócios.
+
+Tratar os dados para poder suportar os processos gerenciais e de tomada de decisão é extremamente diferente do ambiente convencional de processamento de transações. O Data Warehouse possui o objetivo de integração e dados gerando informações a partir dos principais processos empresariais e possui a capacidade de consolidar tais dados, com objetivo de exploração e análise, ampliando o conteúdo a fim de atender às expectativas e  necessidades de nível gerencial e estratégico na empresa.
+
+O sucesso é atingido quando a empresa melhora sua capacidade de analisar, planejar e reagir, de forma rápida e imediata, às mudanças nas condições de seus negócios. Cotidianamente dados sobre os mais variados aspectos dos negócios da empresa são gerados e armazenados, e passam a fazer parte dos recursos de informação dessa empresa.
+
+Entretanto, tais informações encontram-se, em geral, espalhadas em diversos sistemas e exigem um esforço considerável de integração para que possam dar suporte efetivo à tomada de decisão de gerentes e executivos.
+
+As empresas realizam muitas perguntas que não conseguimos responder com sistemas transacionais, como:
+
+Como reduzir os custos sem impactar na qualidade do produto?
+Quem são os melhores clientes para vender seus produtos?
+Como aumentar a participação de seus produtos no mercado?  
+Quais são os segmentos de mercado mais significativos para seu negócio?
+Como maximizar as vendas por cliente?
+Quais promoções realizar?
+Para quais produtos devo realizar promoções?
+Em que momento realizar as promoções?
+Qual o estoque mínimo necessário por produto em determinado período?
+Que produtos têm maior índice de retorno?
+Quais clientes possuem uma conta corrente, mas não uma conta poupança?
+Quais clientes possuem mais de um tipo de conta?
+Quem são os meus clientes mais rentáveis entre os que compram mais?
+Como classificar os clientes por faixas usando métricas analíticas e estatísticas avançadas?
+Conhecer a resposta destas e outras perguntas é vantagem competitiva que toda empresa deseja, mas normalmente elas desconhecem o potencial dos dados de seu sistema de informação.
+
+Deficiente visual
+Diagrama DW
+Existem diversos conceitos que envolvem esta tecnologia de armazenamento de dados. Dois autores devem ser destacados nesta área Bill Inmon que definiu um Data Warehouse (DW) como uma coleção de assunto orientada, integrada, variante no tempo, não volátil, dados resumidos e detalhados e históricos utilizados para apoiar o processo de tomada decisão estratégica para a corporação.
+
+Outro autor de referência nesta área Ralph Kimball que definiu como uma cópia dos dados da transação estruturada especificamente para a consulta e análise.
+
+Junto destas definições temos o termo Data Warehousing que segundo o livro DAMA - DMBOK informa que Data Warehousing é utilizado para descrever as operações de extração, limpeza, transformação e processo de carga que mantêm os dados contidos em um data warehouse. Este processo se concentra na habilitação de um contexto de negócios integrados e históricos sobre os dados operacionais, por meio do cumprimento das regras de negócios e manutenção de relacionamentos de dados de negócios adequados. Data Warehousing também inclui o processo de interação com depósitos de meta-dados. Ele traz a solução tecnológica de apoio ao business intelligence (Bl). 
+
+BI procura significado onde a principal função é conhecer as capacidades organizacionais existentes no negócio, como uma solução de tecnologia apresentada no livro DAMA - DMBOK descrito a seguir:
+
+Consulta, analise e comunicação de atividades por meio do conhecimento dos trabalhadores para monitorar e compreender a saúde financeira da operação, e tomar decisões sobre a empresa.
+Consulta, analise e processamento de informações e procedimentos.
+Análise estratégica e Operacional das empresas e os relatórios sobre os dados operacionais.
+Esta gestão (DW-BIM) tem como objetivo a coleta, integração e apresentação dos dados para os trabalhadores do conhecimento para análise dos negócios e tomada de decisão.
+
+Ainda na visão do DAMA - DMBOK, seguem o seus objetivos:
+
+Armazenamento integrado para os dados históricos por áreas.
+Garantia da credibilidade e qualidade para todos os recursos de acesso.
+Garantia de estabilidade, alto desempenho no ambiente.
+Utilização fácil, flexível do ambiente de dados.
+Não realizar a duplicação de dados na gestão de dados mestres e de relevância, entre outras.
+Integração dos dados recém-descobertos como resultados dos processamentos de DW e BI.
+Arquitetura e componentes de BI e DW
+Segundo Inmon, a Fabrica de Informação Corporativa é a coleção de Data Marts integrados através do barramento corporativo de dados.
+
+Deficiente visual
+Fabrica de Informação Corporativa - Inmon
+Fonte: DAMA - DMBOK
+Descrição dos componentes (DAMA - DMBOK)
+Dados Brutos Detalhados: Operacional e Aplicação transacional, transferem dados para integração ao ODS e DW.
+
+Integração e Transformação: Coleta a partir de fontes diversas, integração com DW.
+
+Dados de Referência: Armazenamento comum e acesso aso dados mais importantes que são mais usados permite simplificar a integração no DW.
+
+Armazenamento de dados operacionais ? ODS: União de dados de vários sistemas operacionais para criação de relatórios, comprando ODS com DW como: valor atual X dados históricos, voláteis X não voláteis.
+
+Data Mart Operacional: Apoio a decisão tática, fornecimento de dados para ODS.
+
+Data Warehouse: O maior dos recursos, ponto único de integração, tomada de decisão, gestão estratégica, planejamento, fluxo de dados para aplicação, e ODS, data marts, correção de dados por meio de sistema para aqueles rejeitados.
+
+Data Marts: processamento de informação, acesso adaptado as necessidades do departamento e análise comum.
+
+Alcance da informação (DAMA - DMBOK)
+Componentes - Fabrica de Informação Corporativa
+Componentes	Escopo/Função	Notas
+Aplicações	Relatório Operacional Isolado	Dados dentro de uma instância do aplicativo
+ODS	Relatório Operacional Integrado	Multiplas fontes como origem de dados, pouco historico nos dados
+DW	Análise Exploratória	Descoberta de novos relacionamentos e informações, Mineração de dados, descarrega a carga do DW
+Open-Mart	Análise Tática	Relatórios analitícos, valores atuais, foco tático, modelagem multidimensional
+Data Mart	Analitíco - Apoio à decisão e estratégia	Foco departamental, mundo real da organização.
+Observe a seguir uma comparação do negócio com foco na aplicação entre os aplicativos, ODS, DW e Data Mart. Segundo DAMA - DMBOK.
+
+Deficiente visual
+Componentes Inmon - Visão do negócio e aplicação
+Fonte: DAMA - DMBOK
+Observe a seguir uma comparação do negócio com foco nos dados entre os aplicativos, ODS, DW e Data Mart. Segundo DAMA - DMBOK.
+
+Deficiente visual
+Componentes Inmon - Visão dos dados
+Fonte: DAMA - DMBOK
+Ciclo de vida - desenvolvimento de negócios Kimball - Peças de xadrez
+Segundo o autor Ralph Kimball no assunto Ciclo de Negócios Dimensional, tem como base os seguintes princípios:
+
+Foco de Negócios: requisitos imediatos e longo prazo de integração de dados gerais e consistência.
+
+Modelos de Dados Dimensional Atômico: facilitação de entendimento do negócio e o desempenho da consulta do usuário.
+
+Gestão de Evolução Iterativa: administrar mudanças e melhorias para o(s) data warehouse, projetos finitos, mesmo que nunca haja um fim para o projeto.
+
+Este ciclo defende o uso de dimensões adequadas e projetos. O processo de conformação impõe uma taxonomia corporativa e regras de negócios consistentes, de modo que as peças sejam componentes reutilizáveis.
+
+A Figura a seguir representa o ciclo de Kimball e se refere como um Data Warehouse Chess Pieces (Adaptado de The Data Warehouse Toolkit, 2 ª Edição, Ralph Kimball e Ross Margy, John Wiley & Sons, 2002).
+
+Deficiente visual
+Xadrez DW - Kinball
+Fonte: DAMA - DMBOK
+Componentes das peças de xadrez DW Kimball, visão da arquitetura DW / BI
+Xadrez Kinball - Peças
+Nome	Descrição
+Fonte: Sistema Operacional	Aplicativos - Operacionais / Transacionais, integração aos compnenetes ODS e DW
+Dados Staging	Preparação do dados, processos de armazenamento e ETL para apresentação de dados, integração e transfomação para apresentação de resultados
+Dados Apresentação	Dimensões compartilhadas ou unificadas nos Data Marts
+Ferramentas: acesso de dados	Necessidades e exigências para atender aos clientes finais, ferramenta certa para tarefa certa.
+Data Warehousing
+DW Ativo: serve o BI tático e estratégico, sua existência é de muitos anos, tem uma frequência diária de carga, ele depende de características originais de um DW, como por exemplo, de dados não voláteis.
+
+Análise multidimensional - OLAP: ambiente com excelência de desempenho em consultas analíticas multi dimensionais, ele tem como exemplo de sápida de dados um cubo seu forte é criar relatórios com resumo de dados,
+
+ROLAP (Relational Online Analytical Processing): técnica de implementação de multidimensionalidade em tabelas tradicionais (bidimensional) em SGBD.
+
+MOLAP (Multidimensional Online Analytical Processing): usa um banco de dados proprietário e multidimensional especializado.
+
+HOLAP (Hybrid Online Analytical Processing): combinação ROLAP + MOLAP, armazenamento permite utilizar a duas tecnologias.
+
+DOLAP (Database Online Analytical Processing): cubo OLAP virtual, vinculado uma um banco de dados tradicional.
+
+Conceitos e terminologias em modelagem multidimensional
+Criado por Ralph KImball é uma técnica de modelagem com orientação a criação dos Data Marts (DM) e seus termos técnicos deste tipo de modelagem. Segundo DAMA - DMBOK
+
+Sistema de aplicações transacionais e Data Marts
+ 	Modelagem ER
+(Transacional)	Modelagem Dimensional
+(Data Mart)
+Sistema típico	Operacional	Informação BI
+Registros em uma operação	Alguns	Muitos - milhões +
+Tempo de resposta tipico	Segundos	Segundos, minutos, horas
+Usuários alvo	Rotineiro	Gestão e analistas
+Orientação	Aplicação - executar o negócio	Análise do negócio
+Disponibilidade	Alta	Relaxada
+Quantidade de dados por processo	Pequena	Grande
+Horizonte temporal de dados	60 - 180 dias	Um para muitos anos
+Como o sistema é usado	Operações fixas	Fixas e Ad-Hoc
+Tabelas Fato: representam ou podem solucionar as relações N:N entre as dimensões que participam do processo, tem como função auxiliar programadores, operadores e usuários (super) a navegar e validar os dados.
+
+Tabelas Dimensão: são os objetos que contém descrição textual do negócio, são fonte de consulta, representa cerca de 10% dos dados em seu total, ela possuí um pequeno número de linhas, mas um grande número de colunas. Ela possuí: chaves substitutas e chaves naturais.
+
+Atributo Dimensão: garante o armazenamento de cópias históricas de dados, seus tipos: tipo1: sobrescrever, tipo2: nova linha, tipo3: nova consulta, tipo4: nova tabela, tipo6 ? 1+2+3.
+
+Star Schema: representa o modelo tridimensional de dados em uma tabela fato (única), com conexão com diversas tabelas vizinhas (dimensão).
+
+Deficiente visual
+Esquema - Star Schema
+Fonte: DAMA - DMBOK
+Snowflaking: termo usado neste tipo de criação com estrutura tridimensional plana, nesta situação não existe o processo de normalização, seus tipos:
+
+Tabelas Snowflaking: sua formação tem representação a partir de uma hierarquia, Data tem sua representação pelo dia, mês e ano.
+Tabelas Outrigger: associação entre atributos de uma tabela dimensão em uma cardinalidade de relacionamento N:N.
+Tabelas Bridge: é formada com um relacionamento de N:N entre tabelas dimensionais, ou por aninhamento entre tabelas pai-filho na hierarquia.
+Grain: nível de atomicidade de dados em uma transação, limitação de período para criação de relatórios.
+
+
+Complexidade de características.
+Para baixar os arquivos complementares, basta clicar no botão abaixo. Este contúedo faz parte da sequência desta aula e, portanto, é essencial para a aprendizagem.
+
+MATERIAL COMPLEMENTAR
+Quiz
+Exercício Final
+Gestão da Data Warehousing e Business Intelligence
+INICIAR 
+Referências
+Barbieri, Carlos. Uma visão sintética e comentada do Data Management Body of. Knowledge (DMBOK). Fumsoft - Belo Horizonte, 2013.
+
+Biere, Mike. business intelligence for the Enterprise. IBM Press, 2003. ISBN 0-131-41303-1. 240 pages.
+
+Bischoff, Joyce and Ted Alexander. Data Warehouse: Practical Advice from the Excerts, Prentice-Hall, 1997. ISBN 0-135-77370-9. 428 pages.
+
+Eckerson, Wayne W. Performance Dashboards: Meassuring, Monitoring, and Managing Your Business. Wiley, 2005. ISBN-10: 0471724173. 320 pages.
+
+IInmon, W. H, Building the Operational Data Store, 2nd edition. John Wiley & Sons, 1999. ISBN 0-471-32888-X. 336 pages.
+
+Ilnmon, W- H., Claudia Imhoff and Ryan Sousa. The Corporate information Factory, 2nd edition. John Wiley & Sons, 2000. ISBN 0-471-39961-2. 400 pages.
+
+lnmon, W. H. and Richard D. Hackathorn. Using the Data Warehouse. Wiley-QED, 1994. ISBN 0-471-05966-8. 305 pages.
+
+Kimball, Ralph and Margy Ross. The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling, 2nd edition. New York: John Wiley & Sons, 2002. lSBN 0-4'7 1520024- 7. 464 pages.
+
+Kimball, Ralph, Laura Reeves, Margy Ross and Warren Thornwaite. The Data Warehouse Lifecycle Toolkit: Expert Methods for Designing, Developing and Deploying Data Warehouses. John Wiley & Sons, 1998. ISBN 0-471-25547-5. 800 pages.
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo.
+
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012.
