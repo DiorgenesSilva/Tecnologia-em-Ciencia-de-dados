@@ -1,0 +1,160 @@
+Gestão de Qualidade de Dados
+Aprender a importância de qualidade me gestão de dados
+
+NESTE TÓPICO
+ Melhoria dos processos em gestão - Qualidade
+ Referências
+NESTE TÓPICO
+
+ Melhoria dos processos em gestão - Qualidade
+
+
+Melhoria dos processos em gestão - Qualidade
+Uso da qualidade implica em várias decisões e melhora de diversos processos, do mais simples ao mais complexo, ter qualidade dados é ter qualidade da informação. A falta desta qualidade implica resultados imprecisos na emissão de relatórios e um desempenho fraco nos negócios da organização, a elaboração de um programa para qualidade de dados terá como objetivo e melhora sobre informações do negócio empresarial.
+
+Para o DAMA-DMBOK a abordagem de questões que melhoram a qualidade de dados pode ter como inicio a simples correção de dados, gestão do ciclo de criação, transformação e transmissão para entrega dos resultados aos interessados.
+
+Com  a institucionalização destes processos, haverá a descoberta de melhorias da medição, controle, monitoramento. Este processo de qualidade de dados é utilização contínua de parâmetros para determinar níveis mais adequados de acordo com as necessidades do negócio, garantindo assim que a qualidade mantenha um nível.
+
+Deficiente visual
+Gestão da qualidade de dados
+Fonte: Livro DAMA
+Uma abordagem de gestão de qualidade descrita no DAMA-DMBOK, é uma versão do ciclo de Deming, sua proposta descreve uma gestão de qualidade com um modelo de resolução de problemas: “planejar-estudar-agir” um processo prático de gestão de qualidade dos dados. Seus parâmetros tem como definição os termos:
+
+- Planejamento para avaliação dos estados atuais com identificação métrica para medir a qualidade.
+
+- Uso de processos na implementação com objetivo de medir e melhorar a qualidade.
+
+- Realizar o monitoramento e conseguir medir os níveis atuais com as expectativas pré-definidas pelo negócio.
+
+- Ação para resolver os problemas encontrados com intenção de ir ao encontro das expectativas do negócio.
+
+O inicio é dado pela identificação dos problemas existentes com os dados – problemas críticos – que irão causar problemas para alcançar os objetivos do negócio.
+
+Deficiente visual
+Processo de Deming
+Fonte: DAMA - DMBOK
+Planejamento: escopo de problemas, determinando custo e impacto dos problemas para avaliação de alternativas que possam ser usadas em possíveis soluções.
+
+Implementação: conhecer os dados, traçar o perfil destes, identificar problemas com os dados se acontecerem, correção de falhas que poderão aparecer em processos.
+
+Monitoramento: verificação através das regras do negócio da qualidade dos dados, verificação de padrões de aceitabilidade, verificação do controle e nível de qualidade se está de acordo com requerimentos do negócio.
+
+Ação: resolução de problemas.
+
+Para a promoção da gestão de qualidade são necessários passos como a conscientização da importância da inclusão de relacionar os impactos materiais nesta qualidade, abordar a sistemática para os reguladores e a visão geral da qualidade organizacional dos dados, sua socialização,  tratamento de problemas devem abranger como um todo a gestão e não apenas as soluções em tecnologia.
+
+As tarefas incluem:
+
+- Procura por parceria nos negócios para trabalhar na equipe de qualidade de dados e apoiar este processo.
+
+- Identificar responsabilidades sobre os dados.
+
+- Sincronizar os dados de negócios e administrar as regras de domínios.
+
+- Análise de dados como parte de desenvolvimento do ciclo.
+
+- Objetivos de alta qualidade com objetivos pessoais de desempenho.
+
+A gestão da qualidade deve ser entendida no contexto de utilização da atividade de uso, a finalidade desta utilização é o local onde se encontram as necessidades específicas para a finalização do processo de negócio.  Nos processos de negócios existem regras  que são especificadas pelo meio externo, como padrões de indústria ou formatos existentes para a troca de dados e por meios internos, como regras internas de uma organização: marketing, vendas, comissões e outras politicas. Estes requerimentos da atividade de uso demonstram informações bem definidas da qualidade de dados.
+
+- Identificar os componentes que são chave, associados a politica do negocio.
+
+- Observar como as inserções afetam o negócio.
+
+- Avaliar os erros e caracterizá-los dentro da gestão da qualidade de dados.
+
+- Especificar as regras do negócio que medem as ocorrências de erros de dados.
+
+- Identificar processos em conformidade com as regras de negócio.
+
+Deficiente visual
+Gestão da qualidade de dados
+Regras de negócio de acordo com os negócios a partir de qualidade de dados com indicadores de alto nível:
+
+- Acuracidade: grau do dado com especificação correta definida pelo mundo real do negócio mede a acuracidade dos valores de uma fonte correta de informação.
+
+- Completude: verificar se a quantidade de dados presente  em um relatório está correta.
+
+- Consistência: garantia dada pelos valores em um conjunto de dados.
+
+- Corrente: valor dos dados que se refere a qual informação é presente no mundo dela.
+
+- Precisão: abrange o nível de detalhe de um elemento de dados,  precisão de um dado numérico.
+
+- Privacidade: acesso e controle, uso e controle, limite de uso.
+
+- Razoabilidade: Verificação do número de processos realizados.
+
+- Integridade referencial: referência de dados de associação entre tabelas.
+
+- Tempo de resposta adequado: expectativa de acesso e disponibilidade.
+
+- Unicidade: limitação do número de dados, exclusividade entre as entidades.
+
+- Validade: armazenamento dos dados, seu formato e consistência.
+
+Para a avaliação de problemas nesta gestão o DAMA-DMBOK indica que exista uma inspeção e avaliação dos conjuntos de dados. Esta abordagem envolve entender como os processos de negócio tem correspondência com os dados críticos, ainda tem que entender como os dados são consumidos pelos processos para o sucesso da aplicação.
+
+Os passos a seguir são citados no DAMA-DMBOK:
+
+- Identificar o pacote de dados para revisão.
+
+- Catalogar o uso do negócio para esse pacote.
+
+- Usar ferramentas para analisar esses pacotes com ferramentas de perfil e técnicas.
+
+- Listar as anomalias, para cada: revisar e avaliar.
+
+- Priorizar a importância critica das anomalias para definição da métrica da qualidade de dados.
+
+Na avaliação do pacote de dados, deve –se verificar:
+
+- Porcentagem de registros de dados que foram preenchidos.
+
+- Valores preenchidos para cada atributo.
+
+- Potenciais externos.
+
+- Relações entre colunas do mesmo quadro.
+
+- Relação entre quadros.
+
+Sugestões para definição das métricas de qualidade de dados:
+
+- Capacidade de medição: quantificação, mensuração, medições uteis com relevância para o negócio.
+
+- Relevância de negócio: demonstrar os níveis de aceitação com a expectativa do negócio, a partir das medições.
+
+- Aceitabilidade: relação da qualidade de dados com a expectativa do negócio com níveis mínimos de aceitação, relação da pontuação com a expectativa do negócio.
+
+- Responsabilidade/Delegação: Alerta sobre o valor da métrica da qualidade quando não atender as expectativas do negócio.
+
+- Habilidade de controle: valor da métrica que esteja dentro de uma área indesejável deverá alertar ação para melhorias.
+
+- Capacidade de rastreamento: monitoramento  pelos gestores das atividades de acordo com o termo de aceitação demonstrando melhorias.
+
+
+Processo - Qualidade de dados
+Realizar a verificação dos dados compte a uma análise rigorosa, assim pode-se determinar quais são os dados bons e os ruins, quantificar a qualidade destes dados é um processo de análise e descoberta, envolve uma verificação bem objetiva dos valores que são preenchidos nos dados, a análise é um pacote com propósito de:
+
+- Analisar sob a estatística os valores desta qualidade de dados dentro de um pacote.
+
+- Verificar a relação existente nas coleções de valores de dados em um pacote.
+
+Em muitas situações os problemas com a qualidade dos dados estão nas situações em que uma variação mínima de valor em sua representação dos dados gera confusão ou ambiguidade. Nesta situação existe o uso da análise sintática e padronização de valores. O reconhecimento de padrões pelo ser humano é uma habilidade que tem contribuição para caracterizar valores de dados que pertencem a mesma classe de valores abstratos, o reconhecimento acontece, pois as pessoas confrontam valores padrões com valores que visualizam.
+
+A verificação da ocorrência dos erros pode ser identificada quando existem regras de dados especificas, estas são verificadas para transformar esse erro em um formato que é aceito pela arquitetura desejada. Essa regra  deve ser implementada diretamente na ferramenta de integração de dados, utilizando a padronização mapeando dados de alguma forma.
+
+Deficiente visual
+Processamento - Gestão - Qualidade
+Quiz
+Exercício
+Gestão de Qualidade de Dados
+INICIAR 
+Referências
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft ¿ Belo Horizonte
