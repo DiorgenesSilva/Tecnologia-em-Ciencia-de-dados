@@ -1,0 +1,265 @@
+Gestão de Metadados
+Conhecer a parte de desenvolvimento de metadados
+
+NESTE TÓPICO
+ Definição da gestão de metadados, segundo Bergson Lopes e DAMA-DMBOK:
+ Metadados técnicos e operacionais:
+ Metadados de processo:
+ Metadados gerenciados estrategicamente:
+ Arquitetura Centralizada
+ Arquitetura Distribuída:
+ Arquitetura Hibrida:
+ Referências
+NESTE TÓPICO
+
+ Definição da gestão de metadados, segundo Bergson Lopes e DAMA-DMBOK:
+ Metadados técnicos e operacionais:
+ Metadados de processo:
+ Metadados gerenciados estrategicamente:
+ Arquitetura Centralizada
+ Arquitetura Distribuída:
+ Arquitetura Hibrida:
+ Referências
+Marcar
+tópico
+
+     
+
+Dados é a menor parte de algo, a utilização de banco de dados traz uma estrutura que como principio de armazenamento é o dado – fragmento de algo, e para que se tenha utilidade sobre os dados, eles devem ser associados ou unidos dentro de um contexto pra possuírem valor, gerar informação. Dentro deste conceito pode-se observar a existência de dados sobre dados, são chamados de metadados, eles tem por finalidade demonstrarem as transações existentes na vida real, esta gestão trabalha o conjunto de processos para garantir a adequada criação, armazenamento, integração e controle com a intenção de apoiar o uso dos metadados.
+
+Benefícios da gestão de metadados:
+
+- Elevar o valor das informações estratégicas, auxiliando analistas na tomada de decisão;
+
+- Diminuir custos no treinamento e rotatividade de pessoal;
+
+- Minimizar o tempo de pesquisa de dados, auxiliando os analistas de negócios a visualizar informações necessárias em tempo hábil;
+
+- Melhorar a comunicação entre os diversos interessados neste processo, usuários do negócio, profissionais de TI;
+
+- Prover um aumento da velocidade de desenvolvimento do sistema;
+
+- Tornar mínimo o risco de falha de projeto trazendo uma análise mais apurada dos fatos.
+
+- Identificar as redundâncias existentes, diminuindo o retrabalho.
+
+Áreas com envolvimento nesta gestão, segundo o DAMA – DMBOK:
+
+- Análise de negócios;
+
+- Arquitetura de negócios;
+
+- Definições de negócio;
+
+- Regras de negócios;
+
+- Governança de dados;
+
+- Integração de dados;
+
+- Qualidade de dados;
+
+- Gestão de conteúdo de documentos;
+
+- Infraestrutura de TI;
+
+- Modelos de dados lógicos;
+
+- Modelos de dados físicos;
+
+- Modelos de processo;
+
+- Portfólio de sistemas e governança de TI;
+
+- SOA;
+
+- Design de sistemas e desenvolvimento;
+
+- Gestão de sistemas;
+
+
+Gestão Metadados
+Fonte: DAMA - DMBOK
+Definição da gestão de metadados, segundo Bergson Lopes e DAMA-DMBOK:
+
+Definição Metadados
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Os metadados têm como classificação quatro tipos: negócios, técnicos, operacional e gestão de dados, segundo o DAMA-DMBOK são:
+
+Metadados de negócios:
+
+- Regras de definição de dados do negócio, processamento e cálculos;
+
+- Algoritmos de negócio, hierarquias;
+
+- Linha dos dados e impacto, análise de conteúdo;
+
+- Modelo de estrutura de dados, conceitual e lógico;
+
+- Qualidade com indicadores de confiança, completude e integridade;
+
+- Manejo dos dados;
+
+- Atualização de dados, processamento;
+
+- Restrições regulatórias ou contratuais;
+
+- Relatórios de conteúdo de dados;
+
+- Registro dos elementos de dados;
+
+- Restrições válidas de valor.
+
+Deficiente visual
+Metadados no negócio
+Metadados técnicos e operacionais:
+- Controles de auditoria e balanceamento de informações;
+
+- Regras de retenção e armazenamento dos dados;
+
+- Conversões;
+
+- Histórico de extratos e resultados;
+
+- Identificação na estrutura dos campos de origem dos dados;
+
+- Mapeamento, alterações, processamento – OLTP, OLAP;
+
+- Modelo de BD, físico com seus índices, chaves, mapeamento;
+
+- Nomes dos programas e descrições;
+
+- Avaliação para deleção;
+
+- Politica para backup e restore;
+
+- Relacionamentos entre modelos e DW;
+
+- Sistema de alimentação de dados – OLTP, OLAP, SOA;
+
+- Verificações por relatórios de acessos;
+
+- Manutenção da versão.
+
+Deficiente visual
+Metadados - Técnico e operacional
+Metadados de processo:
+- Armazém de dados e dados envolvidos;
+
+- Organismos regulatórios e governamentais;
+
+- Donos das Organizações e partes interessadas;
+
+- Dependência de processos e decomposição;
+
+- Processos de retorno e de sequenciamento da documentação;
+
+- Nome do processo;
+
+- Ordem do processo e cronograma;
+
+- Variações de processos;
+
+- Papéis e responsabilidades;
+
+- Atividades da cadeia de valor.
+
+Deficiente visual
+Metadados - Processos
+Metadados gerenciados estrategicamente:
+- Geradores de negócio;
+
+- CRUD;
+
+- Dados técnicos do negócio;
+
+- Proprietários de dados;
+
+- Partilha de dados;
+
+- Administração de dados;
+
+- Áreas de assunto de dados;
+
+- Usuários de dados;
+
+- Organismos reguladores;
+
+- Governança, estrutura e responsabilidade.
+
+Deficiente visual
+Metadados - Estratégico
+Os metadados podem estar em qualquer lugar e qualquer parte vinculada a gestão de dados, as identificações sobre qualquer dados é um metadados, eles são de interesse potencial para algum grupo de usuários. Os aplicativos e sistemas de TI possuem uma integração forte com eles, fontes de metadados são numerosas, praticamente qualquer coisa em uma organização.
+
+Para trabalhar os metadados é necessário criar estratégias de direção, isso é definido pela empresa, essa estratégia passa  por uma declaração de intenções e atua como um framework de referência, isso trará mais clareza no processo de desenvolvimento de requisitos com resultados mais fáceis de serem compreendidos. Como foco principal essa gestão tenta ganhar compreensão e consenso sobre o negócio da empresa, seu objetivo é ter uma maior compreensão do ambiente imediatamente e para seu futuro.
+
+Para que essa gestão seja eficaz é importante que o trabalho realizado na governança de dados permita que os gestores de dados e negócios definam as prioridades, com intuito de orientar os programas de investimento e supervisionar os esforços de implementação dentro do contexto maior de regulamentação governamental e setorial.
+
+Seus requisitos segundo DAMA-DMBOK:
+
+Usuários do negócio:
+
+Eles exigem um alto grau de confiança nas informações obtidas pelo sistema, por exemplo do DW corporativo, devem ter acesso sob medida e seu papel nos métodos de entrega de informações, seus relatórios, consultas entre outras precisam de grande qualidade.
+
+Técnicos de usuários:
+
+Os DBAs fazem parte deste segmento, devem entender a implementação técnica dos dados cuidadosamente, incluindo detalhes de nível atômico, integração dos dados, interfaces e mapeamento, devem ter consciência de uso do sistema, conhecer o negócio para oferecer suporte.
+
+Este ambiente de gestão deve isolar o usuário final das fontes de metadados, a sua arquitetura deve estar disposta a fornecer um ponto de acesso único aos dados necessários a este usuário. Neste ponto ele tem que encontrar todos os recursos que são necessários  para que ele consiga exercer sua função.
+
+Arquitetura Centralizada
+Possuí repositório de dados único, contém cópias de várias fontes, traz benefícios para alto grau de coerência e uniformidade.
+
+Vantagens:
+
+- Alta disponibilidade;
+
+- Recuperação rápida de metadados;
+
+- Estrutura independente;
+
+- Melhor qualidade, pois podem ser agregado metadados adicionais sem estar na fonte principal.
+
+Limitações:
+
+Complexidade maior nos processos de replicação;
+
+Manutenção do repositório;
+
+Extração usa módulos adicionais, middleware por exemplo;
+
+Maior demanda para casos de manutenção e validação do código.
+
+Arquitetura Distribuída:
+Esta arquitetura possuí ponto de acesso único, recuperação de metadados em tempo real, sem repositório persistente.
+
+Vantagens:
+
+Atualização permanente;
+
+Tempo de resposta melhor com consultas distribuídas;
+
+Menor esforço de implementação e manutenção;
+
+Mínimo de intervenção manual;
+
+Batch reduzido, sem replicação e sincronização de metadados.
+
+Limitações:
+
+Sem normalização entre os sistemas;
+
+Disponibilidade é afetada diretamente pelas consultas;
+
+Sem repositórios para acréscimo de metadados, ter que ser manual.
+
+Arquitetura Hibrida:
+Esta arquitetura traz benefícios para recuperação quase em tempo real das fontes de metadados aprimorados com a intenção de atender as necessidades dos usuários com maior eficácia, ela reduz o esforço no caso de uma intervenção manual de TI, com funcionalidade personalizada em seus sistemas proprietários.
+
+Deficiente visual
+Arquitetura - Metadados
+A criação do ambiente é um piloto em sua maioria dos projetos, esse projeto consiste em provar conceitos e aprender sobre seu gerenciamento, ele tem grande complexidade na avaliação de seus requisitos, estratégia, tecnologia a ser usada. Atualizações frequentes no planejamento, pessoal,  organização, avaliação, reavaliação na medida do necessário.
+
+ 
+
+
