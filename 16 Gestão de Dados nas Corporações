@@ -1,0 +1,93 @@
+Gestão de Dados nas Corporações
+Conhecer o processo de criação da gestão de dados em corporações
+
+NESTE TÓPICO
+ O mundo das corporações....
+ Equipe centralizada
+ Equipe distribuída em duas equipes (Negócio e TI)
+ Referências
+
+O mundo das corporações....
+A aplicação de papéis e perfis na Gestão de Dados são muitos, a preocupação está em como estruturar e organizar esses papéis nas corporações. As formas variam muito em cada empresa.
+
+A criação das equipes é formada por grupos de profissionais da área que atuam em um ou mais papéis e estão subordinados a uma estrutura organizacional dentro de uma empresa. Elas possuem responsabilidades com o trabalho em conjunto com outras pessoas e demais equipes a fim de atingir os objetivos táticos e estratégicos. Também executam as tarefas estabelecidas na metodologia de Gestão de Dados vigente, alimentam os indicadores de desempenho adotados e atuam de forma proativa com o propósito de elevar a maturidade e a utilização da Gestão de Dados na empresa.
+
+Em geral a maioria das organizações ainda estabelece suas equipes de Gestão de Dados dentro da própria área de TI, existem outras que defendem a localização  fora da área de TI, de preferencia no nível estratégico da empresa
+
+As equipes de Gestão de Dados subordinadas ao departamento de TI têm sua atuação muito limitada às necessidades de tecnologia das empresas, nesse caso, as soluções não são tão abrangentes, pois a área não possui uma visão global de todo o negócio da empresa, e sim uma visão de requisições de clientes para atender dentro do seu portfólio.
+
+Nesta situação pode haver conflitos técnicos entre Gestores de Dados e profissionais ligados ao desenvolvimento/manutenção de sistemas devido às soluções não tão completas e/ou corretas que estão sendo apresentadas por causa das pressões decorrentes dos prazos e custos das entregas, possivelmente, em um curto período de tempo, caso não adotassem posturas de atendimento ágeis e proativas.
+
+As equipes de Gestão de Dados estabelecidas fora do departamento de TI, estando em níveis mais altos da hierarquia, possuem uma visão de negócio muito mais abrangente e também aderente às reais necessidades das empresas, porém, faltam condições e conhecimento técnico para acompanhar as implementações tecnológicas, geralmente conduzidas pela área de TI.
+
+Outra opção para esta abordagem e mais aderente às necessidades atuais do mercado e alinhadas com os princípios da Gestão de Dados, sugere a adoção de um modelo de atuação híbrido no qual a função Gestão de Dados seria compartilhada entre as áreas de negócio e TI, essa área contaria com um quadro qualificado de Gestores Técnicos de Dados e demais profissionais de tecnologia, e as áreas de negócio contariam com a figura dos Gestores de Dados de Negócio - Data Stewards.
+
+
+Corporação, Gestão, Responsabilidade
+O porte e as características de cada empresa, a responsabilidade pela execução das atividades da Gestão de Dados pode ser distribuída em várias equipes ou centralizada em uma única equipe.  Segundo o livro Gestão e governança de dados – Promovendo dados como ativo da empresa, os autores citam as formas de trabalho:
+
+Equipe centralizada
+Cenário mais comum encontrado na maioria das empresas, principalmente nas que já possuíam uma área de Administração de Dados estabelecida e resolveram ampliar o escopo de atuação sem grandes mudanças, a equipe é única e está situada dentro da área de TI. Os profissionais que atuam na Gestão de Dados continuam a ser alocados dentro de uma única
+
+Equipe, gestão desses profissionais é executada por um gerente ou um coordenador que também pode atuar no papel de Gestor Estratégico de Dados. Os profissionais atendem a diferentes áreas de negócios da empresa, eles passem boa parte do expediente dentro das áreas de negócio, próximos aos clientes, a fim de entender o “modus operandi” e representar as necessidades e os interesses das áreas de negócio por eles atendidas.
+
+Deficiente visual
+Estrutura centralizada gestão de dados
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Neste tipo de configuração as estruturas de apoio à equipe são opcionais, se existirem, tem sua representação na pirâmide pelo Conselho de Gestão de Dados. Essas estruturas são responsáveis pelo relacionamento estratégico com a área de negócios.
+
+Principais vantagens do cenário de uma equipe de Gestão de Dados centralizada são:
+
+- Melhor gerenciamento e aproveitamento dos recursos humanos.
+
+- Custo reduzido, pois os gastos estarão concentrados em apenas uma equipe.
+
+Desvantagens:
+
+- O peso das decisões estará concentrado em um único lugar. Se a área de Gestão de Dados estiver localizada dentro da TI, as decisões tenderão a levar em conta as pressões por prazos, custos, entregas e disponibilidades de recursos da TI. Se a área estiver localizada fora da TI, algumas decisões poderão ser tomadas sem levar em conta a capacidade de atendimento e a carteira de entregas da área de Tl.
+
+Equipe distribuída em duas equipes (Negócio e TI)
+Esta disposição pode ser considerada a evolução da opção centralizada e é caracterizado pela divisão de responsabilidades em duas equipes. A equipe de Gestão Técnica de Dados está subordinada à área de TI e a equipe de Gestão de Dados de Negócio está subordinada a uma área de negócio da empresa, preferencialmente ligada à estratégia de alta administração.
+
+Os Comitês de Gestão e Governança de Dados e o Conselho de Gestão e Governança de Dados, opcionais no modelo centralizado, passam a ser fundamentais para promover alinhamento e harmonia entre as duas equipes.
+
+Não existe alteração na forma de atuação centralizada, porém é importante frisar que uma simples divisão de responsabilidades entre duas áreas (equipes) impulsiona um melhor alinhamento entre a TI e o negócio, pois cada equipe passa a concentrar seus esforços naquilo em que realmente é especialista. Agora existe uma possibilidade de existir um profissional dedicado a promover a Gestão de Dados nos escalões mais altos da empresa, o Executivo de Gestão de Dados (CDO). Este CDO realiza com o Conselho de Governança de Dados um relacionamento estratégico com as áreas de negócio da empresa, onde a equipe de Gestão de Dados de Negócio será responsável por manter um relacionamento tático com as áreas de negócio e a equipe de Gestão Técnica de Dados continuará a manter relacionamentos nos níveis tático e operacional.
+
+Estrutura com duas equipes: Negócios e Técnica
+Estrutura com duas equipes: Negócios e Técnica
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Nesta opção de trabalho o Gestor Estratégico de Dados também pode estar alocado na equipe de Gestão Técnica de Dados ou então fora das duas equipes, como uma espécie de consultor externo, inclusive apoiando o CDO da empresa.
+
+Ainda descrevendo sobre o Gestão e governança de dados – Promovendo dados como ativo da empresa, existe uma estruturação que é usada em relação ao formato das equipes de trabalho, a seguir é demonstrado a atuação das mesmas.
+
+Deficiente visual
+Gerência indireta do CDO
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Nesta situação, cada área possui um gerente (ou coordenador) funcional responsável pela gestão dos recursos humanos formados pelos pools de gestores de dados (técnicos ou de negócios) ele é subordinado à outra estrutura dentro do organograma e deve atender aos objetivos definidos pela sua estrutura superior, porém o CDO exerce forte influência na gestão dessas equipes. 
+
+Deficiente visual
+Estrutura com gerenciamento direto CDO
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas
+Agora a gestão dos recursos é facilitada, pois a estrutura de trabalho segue uma hierarquia única, apesar de ter uma estrutura para Gestão Técnica de Dados específica, esta não é subordinada à Tl.
+
+Como então conseguir escolher o que é melhor para o negócio e a empresa?
+
+Cada empresa possui a sua realidade, a cultura da empresa, patrocínio, disponibilidade e verba disponível influenciam diretamente na escolha de uma abordagem. Convém, no entanto, ter atenção em certos fatores críticos que caracterizam uma área de Gestão de Dados bem-sucedida. Segundo o livro gestão e governança de dados, são eles:
+
+- Constituir-se em unidade(s) autônoma(s) com recursos dedicados integralmente e centro de
+
+Custo, ter autoridade suficiente para agir com independência, segurança e eficácia na busca dos seus objetivos.
+
+ - Supervisionar a adoção, por todos os setores, incluindo a TI, de modelos, normas e regras de Gestão de Dados corporativos, decorrentes das estratégias organizacionais aprovadas.
+
+- Ter o apoio sustentado e explícito da Alta Administração da empresa, no mínimo, até que atinja a fase de consolidação e maturação da área.
+
+FIM DO TÓPICO - ATENÇÃO
+Agora é pra valer..... resolver os exercícios irá fortificar seus conhecimentos neste tópico
+
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft ¿ Belo Horizonte
+
