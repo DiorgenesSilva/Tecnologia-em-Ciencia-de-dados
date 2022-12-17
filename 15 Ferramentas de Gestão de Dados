@@ -1,0 +1,163 @@
+Ferramentas de Gestão de Dados
+Conhecer quais são as ferramentas que participam deste processo
+
+
+NESTE TÓPICO
+
+ Estrutura da Gestão de Dados
+ Corpo Técnico
+ Ferramentas
+ Metodologia
+ Qualidade
+ Alinhamento estratégico
+ Governança de Dados
+ Conduta
+ Referências
+Marcar
+tópico
+
+     
+
+ 
+
+Todo desenvolvimento segue uma metodologia, uma prática, regras. Para desenvolver todo esse ambiente, processos, execuções segundo Bergson Lopes em seu livro que trata também deste assunto Gestão e Governança de dados tem um capítulo que descreve como proceder para alcançar a excelência na aplicação desta gestão, a partir do DAMA-DMbok ele traz terias que promovem esse desenvolvimento, este tópico trará estas informações.
+
+Trabalhar a Gestão de Dados não é apenas um framework e nem uma metodologia, é uma forma de trabalho, uma filosofia proativa, focada na conduta comportamental dos profissionais que atuam na área. Tal responsabilidade é compartilhada entre as áreas de TI e negócio, a busca de uma visão mais abrangente das áreas de negócio das empresas pelos seus profissionais de Gestão de Dados.
+
+Com o aparecimento desse modelo, criou-se a necessidade de as novas tendências tecnológicas que envolvem a manipulação e o uso dos dados e também novas características de trabalho, tais como:
+
+- Distribuição do trabalho em várias frentes, em diferentes localizações geográficas.
+
+- Métodos de desenvolvimento ágil de aplicações, onde o tempo de resposta às solicitações deve ser muito rápido.
+
+Desta forma, as equipes de Gestão de Dados conseguem acompanhar a adoção de novos paradigmas e tecnologias que vêm surgindo ultimamente e também acompanhar as necessidades de mudanças nos requisitos e nas regras de negócios adotadas pelas empresas.
+
+  
+Gestão de dados moderna.
+Fonte: Livro Gestão e Governança de dados - Promovendo dados como ativo de valor nas empresas.
+Esta estrutura tem uma composição através de conceitos bastante comuns nas organizações que possuem equipes em atividade, inclusive as equipes de Administração de Dados tradicionais.
+
+Estrutura da Gestão de Dados
+Região dos retângulos centrais: o corpo técnico e as ferramentas.
+
+Áreas formadas somente por este conjunto de atuação são conhecidas como áreas de Administração de Dados ou Gestão de Dados Tradicional.
+
+Parte central: maior ou menor nível de maturidade, focos voltados para a qualidade e a governança dos metadados, metodologias definidas, também chamadas de Estrutura Central da Gestão de Dados.
+
+Os retângulos centrais (Metodologia, Alinhamento Estratégico, Qualidade e Governança de Dados): grupos de processos, documentos e diretrizes que são seguidos pelo corpo técnico
+
+de profissionais, com o apoio de ferramentas.
+
+Corpo Técnico
+Conjunto de profissionais envolvidos nas atividades de Gestão de Dados. São elas: gestores de dados (técnicos e de negócio), gestores estratégicos de dados, administradores de repositórios de metadados e DBAs, responsáveis por planejar e executar as práticas estabelecidas na estrutura central do quadro, contam também com pessoas de outras equipes que possuem alguma relação (mesmo que indireta) com as atividades.
+
+Ferramentas
+Softwares e às soluções de hardware utilizadas para apoiar todas as atividades executadas pela área de Gestão de Dados. São elas: sistemas gerenciadores de banco de dados, ferramentas de modelagem, repositórios de modelos de dados, repositórios de metadados, ferramentas de Qualidade de Dados, ferramentas para Gestão de Dados mestres e dados de referência, ferramentas para ETL, repositórios de ativos, além de ferramentas customizadas para apoiar os processos e indicadores utilizados pelas equipes de Gestão de Dados.
+
+Metodologia
+Conjunto de documentos que orientam os profissionais envolvidos com as funções e atividades preconizadas pela disciplina de Gestão de Dados na empresa.
+
+A metodologia descreve as regras do jogo definidas nas atividades de Governança de Dados.
+
+Qualidade
+Qualidade corresponde à execução dos métodos de controle e garantia utilizados para manter as estruturas de dados e o conteúdo dos dados aderentes aos graus de qualidade preestabelecidos.
+
+O seu símbolo é o retângulo, que abrange tanto a qualidade dos metadados (estruturas de dados) quanto a qualidade dos dados (conteúdo) e, dependendo da maturidade da empresa, a qualidade do processo de Gestão de Dados (planejamento, ação, controle e melhoria contínua).
+
+Alinhamento estratégico
+É a ligação entre planejamento estratégico de negócio e planejamento estratégico de TI, missão, os objetivos e planos refletem e são suportados pela missão,
+
+Essa adoção permite que os integrantes da força de trabalho saibam exatamente qual é o seu papel dentro da empresa e em que direção cada uma de suas ações deve ser guiada.
+
+Governança de Dados
+Segundo Bergston sua preocupação é obter as respostas para as seguintes perguntas:
+
+Qual a política adotada pela empresa sobre o uso dos dados e informações?
+
+Quais são as responsabilidades e os papéis envolvidos no uso dos dados e informações?
+
+Quais os processos utilizados para gerir dados e informações? Quais os padrões e procedimentos utilizados?
+
+Quem são os gestores das informações?
+
+Quem são as pessoas que avaliaram e atestaram a qualidade dos dados e metadados?
+
+Quem tem direito a consumir quais informações?
+
+Quem construiu os mecanismos de guarda?
+
+Existem projetos estruturantes para melhorar a gestão dos dados?
+
+Conduta
+Postura adotada por todos os integrantes da equipe, que trabalham nos moldes tradicionais costumam não dar tanta ênfase em todos os aspectos comportamentais tidos como fundamentais como conquistar e manter parceiros adaptar-se às necessidades dos clientes, diminuir o retrabalho dos envolvidos e melhorar a qualidade dos dados e metadados da organização.
+
+O resultado de tudo isso é convertido em um quadro de pessoas mais produtivas que gostam do que fazem, trabalham efetivamente como equipes e estão focadas em objetivos.
+
+Este formato traz alguns aspectos de conduta pessoal que devem ser adotados pelos profissionais. São eles: Adaptabilidade, Agilidade, Bom Senso, Comprometimento,
+
+Didática, Objetividade, Proatividade e Racionalidade.
+
+Deficiente visual
+Características profissionais da equipe
+ Adaptação
+
+Característica comportamental do ser humano que expressa à facilidade de se adaptar às novas tecnologias, ao ambiente, à cultura e a demais mudanças que ocorrem nas empresas.
+
+São profissionais com fácil adaptação e menos sensíveis a quebras de paradigmas, costumam perder pouco tempo nas adaptações e geralmente participam como facilitadores nos processos de mudança e não contaminam a equipe reclamando de tudo e de todos.
+
+Agilidade
+
+Capacidade de dar respostas rápidas às solicitações com atitude, foco na entrega, trabalho em equipe e melhoria contínua.
+
+Nos processos empresariais atuais não há mais espaço para demoras excessivas na conclusão de trabalhos simples ou até mesmo condutas negativas, como segurar a conclusão de algum trabalho para mostrar que está trabalhando. A conduta deve ser outra - terminar logo o trabalho para poder ficar livre para assumir outra atividade.
+
+Bom senso
+
+Destaca-se a habilidade utilizada na argumentação que é estritamente ligada às noções de sabedoria e de razoabilidade. Capacidade média que uma pessoa possui, ou deveria possuir, de adequar regras e costumes a determinadas realidades e assim poder fazer bons julgamentos e escolhas.
+
+Comprometimento
+
+Pode ser medido pelo resultado de duas características pessoais: a motivação e o engajamento. A motivação é decorrente de fatores internos do ser humano, do seu estilo de vida, de seus valores e crenças, objetivos e necessidades - ou seja, é pessoal. A empresa deverá fazer com que o colaborador desenvolva esta motivação em sua rotina de trabalho.
+
+Didática
+
+Em resumo “habilidade em ensinar”, deve possuir métodos e técnicas na orientação da aprendizagem. O profissional deve conhecer bem os aspectos mais técnicos que envolvam alguma técnica. A didática está ligada diretamente à comunicação. Se bem trabalhada gera ganhos enormes, como a diminuição do retrabalho.
+
+Objetividade
+
+Compreensão das pessoas e também o tempo de resposta às ações dos membros de uma equipe mais objetiva e direta, mais clara e rápida é a resposta ou a resolução de um problema.
+
+A Objetividade é fazer algo ou expressar de maneira simples, sem metáforas, ambiguidades, ideias implícitas ou ações desnecessárias durante o processo de execução, a sua falta interfere no andamento das atividades.
+
+Pró-atividade
+
+A pró-atividade tem uma característica ligada diretamente à antecipação de escolhas e ações frente às situações previstas. O prefixo “pro” significa antecipação, algo que acontece antes.
+
+Ou ainda um conjunto de comportamentos “extra papel”, em que a pessoa busca espontaneamente por mudanças no seu ambiente de trabalho, solucionando e antecipando-se aos problemas, visando metas de longo prazo que beneficiam a organização. Suas principais características:
+
+-Busca ativa por oportunidades de mudanças.
+
+- Planejamento e execução de ideias.
+
+- Enfrentamento de obstáculos.
+
+Racionalidade
+
+Tem por definição tomar atitudes através de pensamentos baseados na razão. Razão é a capacidade da mente humana que permite chegar a conclusões a partir de suposições ou premissas. Esta permite identificar e operar conceitos em abstração, resolver problemas, encontrar coerência ou contradição entre eles e, assim, descartar ou formar novos conceitos, de uma forma ordenada e orientada para objetivos. Inclui raciocinar, apreender, compreender, ponderar e julgar.
+
+As organizações representam os ativos mais importantes das empresas sob a ótica da Gestão de Dados Moderna: dados e metadados, pessoas e recursos materiais.
+
+Deficiente visual
+Personalidade
+Quiz
+Exercício
+Ferramentas de Gestão de Dados
+INICIAR 
+Referências
+M. Mark, B. Michael, E. Susan, H. Deborah O guia DAMA® para o conhecimento em gestão de dados DAMA-DMBOK®, Technics Publications, LLC, 2012
+
+L. R. Bergston Gestão e Governança de Dados: Promovendo dados como ativo de valor nas empresas,  Ed. Brasport, São Paulo
+
+B. Carlos Uma visão sintética e comentada do Data Management Body of Knowlegde (DMBOK). Fumsoft ¿ Belo Horizonte
+
+Avalie este tópico
