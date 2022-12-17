@@ -1,0 +1,132 @@
+Gestão de Documentos e Conteúdo
+Conhecer a diferença de desenvolvimento entre a Gestão de Documento e Conteúdo
+
+NESTE TÓPICO
+ Animação com documentos eletrônicos e papéis.
+ Gestão de conteúdo
+ Referências
+NESTE TÓPICO
+
+ Animação com documentos eletrônicos e papéis.
+ Gestão de conteúdo
+ Referências
+Marcar
+tópico
+
+     
+
+No guia DAMA-DMBOK' o trabalho realizado neste tópico envolve: “planejamento, implementação e controle das atividades para armazenar, proteger e permitir o acesso aos dados dentro de arquivos eletrônicos e registros físicos arquivos estes que podem ser: texto, gráficos, imagens, áudio e vídeo”.
+
+Esta função é responsável por gerir os dados (conteúdo) não estruturados, que estão armazenados em arquivos diversos. Por se tratar de dados não estruturados, ou seja, não armazenados em bancos de dados tradicionais, aparentemente os perfis mais técnicos atuantes em Gestão de Dados não consideram relevante a preocupação em gerir esses dados, porém é importante se ter em mente que a maioria dos dados das empresas é armazenada em formas não estruturadas, e cada vez mais as soluções de ECM (Enterprise Content Manager) estão sendo adotadas para armazenar esses tipos de dados.
+
+Suas subfunções de acordo com o DAMA – DMBOK:
+
+Gestão de documentos – considera-se o armazenamento, o inventário e o controle de documentos eletrônicos ou impressos, qualquer arquivo ou registro como um documento é um documento. Ela incorpora os processos, as técnicas e tecnologias de controle e organização de documentos e registros, armazenados eletronicamente ou impressos.
+
+Gestão de conteúdo – é voltado aos processos, técnicas e tecnologias de organização, categorização e estruturação de acesso ao conteúdo das informações, resultando na sua efetiva recuperação e reutilização. Esta gestão é importante no desenvolvimento de websites e portais, mas as técnicas de indexação baseadas em palavras-chave e a organização baseada em taxonomias podem ser aplicadas por meio das plataformas de tecnologia. Algumas vezes, a gestão de conteúdo e definido como Gestão de Conteúdo Organizacional (Enterprise Content Management = ECB/D), implicando que o escopo da gestão de conteúdo abrange a empresa toda.
+
+Esta gestão tem como preocupação principal o conteúdo dos arquivos que pertencem a organização, suas informações para definir como gerenciar todo o seu conteúdo.
+
+MATERIAL COMPLEMENTAR
+Os princípios fundamentais da gestão de dados, de acordo com o DAMA-DMBOK nesta gestão é levado em consideração tanto os dados estruturados quanto aos não estruturados. Os dados não estruturados são os valiosos ativos corporativos que representam: armazenagem, integridade, segurança, qualidade de conteúdo, acesso e uso eficaz.
+
+A gestão de documentos é uma aplicação utilizada para localizar documentos eletrônicos e imagens eletrônicas de documentos como: sistemas de documentos, sistemas de correio eletrônico e sistemas para gestão de imagens, esta parte tem a finalidade de armazenar, converter, prover segurança, trabalhar com meta-dados, realizar indexação em conteúdos.
+
+Um pouco mais de dados não estruturados, eles podem ser de qualquer tipo de documento, um arquivo, podem ser imagens, textos que não tenha sido codificado ou transformado em um formato estruturado com linhas e colunas. Eles podem ser encontrados em formatos diversos, inclusive em diferentes formatos eletrônicos como: palavras, e-mails, tabelas, arquivos XML entre outros.
+
+A atividade que é desenvolvida na gestão de documentos/registros refere-se ao ciclo de vida dos documentos mais importantes usados pela empresa, a gestão que é designada para monitorar este ciclo (registros) acompanha desde a criação, recebimento, processamento até sua disposição final.
+
+No livro DAMA-DMBOK, é citado um conjunto de atividades realizadas por esta gestão, são elas:
+
+- Identificação existente ou criadas de documento e registros;
+
+- Politicas que controlam estes documentos e registros em sua criação e aprovação;
+
+- Classificação dos mesmos;
+
+- Retenção através de regras – politicas;
+
+- Armazenamento de acordo com a necessidade – prazo curto ou longo, documentos diversos;
+
+- Recuperação e circulação, acesso conforme regras;
+
+- Preservação dos documentos e registros.
+
+Deficiente visual
+Gestão - Documentos.
+Animação com documentos eletrônicos e papéis.
+A criação deste processo de gestão considera que gestão de documentos envolve o planejamento em diferentes níveis de ciclo de vida de um documento, desde sua criação ou recebimento, passando por sua organização onde é previsto sua recuperação e distribuição, até seu arquivamento. Neste passo será necessário o desenvolvimento de sistemas de classificação/indexação e taxonomias que facilitem o trabalho ou processo para a recuperação dos documentos e a criação de planos e políticas em torno de documentos e registros baseados no valor dos dados para a organização e como evidência das transações organizacionais.
+
+ A criação ou desenvolvimento de documentos dentro de um sistema de gestão de documentos ou capturados por meio de scanners ou softwares OCR também pertencem a gestão de documentos, esses documentos eletrônicos devem ser indexados por meio de palavras-chave ou textos durante o processo de captação de modo que o documento possa ser encontrado. O uso de Meta-dados, como as datas em que o documento foi criado, revisado e armazenado, e o nome do criador, são tipicamente armazenados para cada um deles. Eles poderiam ser extraídos automaticamente do documento ou adicionados pelo usuário. Os registros bibliográficos dos documentos são dados descritivos estruturados, armazenados em formato padrão Maclnne-Readable Cataloging (MARC).
+
+O uso de um repositório de documentos permite que as operações de entrada e saída, conversão, colaboração, comparação, arquivamento, definição de status, migração de um meio de armazenagem para outro e disposição. Estes podem ser categorizados para recuperação utilizando um único identificador de documento ou por meio da especificação de termos de pesquisa parciais envolvendo o identificador do documento e/ou partes dos meta-dados esperados.
+
+Deficiente visual
+Gestão - Documentos eletrônicos.
+A liberação para criação de relatórios pode ser por meio de diferentes ferramentas, incluindo impressoras, e-maíl, websites, portais e mensagens assim como por meio da interface com um sistema de gestão de documentos. Dependendo da ferramenta, os usuários podem pesquisar por drill-downs, visualizações, download/check-in and out e relatórios impressos sob demanda.
+
+Deve-se tomar muito cuidado com relação com uso de softwares adquiridos ou desenvolvidos para a retenção destes documentos ou de registros, pois deverá haver uma combinação entra as versões e os sistemas envolvidos em todo o processamento, o cuidado dever questionado, pois a necessidade de leitura pode prejudicar os resultados envolvidos no processo.
+
+Segundo o DAMA-DMBOK, alguns exemplos considerados para níveis de controle a partir da norma ANSI 859 destacam-se:
+
+ 
+
+Controle de documentos -ANSI 859
+Ativo de dados	Formato	Revisão	Custódia
+Itens de ação	 	X	 
+Agendas	 	 	X
+Auditoria	 	X	X
+Orçamento	X	 	 
+DD 250s	 	 	X
+Proposta final	 	 	X
+Relatórios financeiros	X	X	X
+Recursos humanos	 	X	 
+Reuniões	 	 	X
+Avisos, minutas, listas de comparecimentos	 	X	X
+Planos - gestão de dados	X	 	 
+Propostas em andamento	 	X	 
+Cronogramas	X	 	 
+Declarações de trabalho	X	 	 
+Estudos de mercado	 	X	 
+Treinamento - material	X	X	 
+Documentos de trabalho	 	 	X
+ 
+
+O uso desta gestão necessita de auditorias periódicas para assegurar que a informação certa está sendo direcionado a pessoa certa no momento certo, pois uma tomada de decisão deverá neste momento ser concretizada.
+
+Para o DAMA-DMBOK, a auditoria deve:
+
+- Criar direcionamentos para a organização, identificando as partes interessadas;
+
+- Reunir dados do processo e indicar quais as ferramentas a serem usadas;
+
+- Relatar os resultados;
+
+- Criar um plano de ação para prosseguimento dos afazeres;
+
+Gestão de conteúdo
+Nesta parte deve-se preocupar com a organização, categorização, estruturação para um bom e eficiente armazenamento, futuras publicações e reutilização das fontes em diversas situações. A localização do conteúdo se dá em diversas fontes e formas, o ciclo de vida para um conteúdo ativo, dever ser consistente com suas mudanças que podem ser diárias com processamento passando por um tratamento formal de escrita, gerenciamento, auditoria ou apenas ser informal sem nada de tratamento.
+
+Nesta fase de criação o conceito sobre arquitetura de conteúdo da informação ou simplesmente arquitetura da informação e o que um arquiteto de informação projeta é simplesmente trabalho o processo de criar uma estrutura que gerencie informação e conteúdo. Ele deve identificar links as relações entre eles (conteúdo e documento) analisa e separa os requisitos que são mais importantes e define uma estrutura que armazena o que é necessário para organização.
+
+A gestão de conteúdo segue regras que permitem realizar uma análise um pouco mais apurada para gerar conteúdo como a taxonomia, que é uma técnica ou ciência que permite classificação, segundo DAMA – DMBOK.
+
+Há também a modelagem semântica que reflete para análise e gera o conhecimento, através de ideias e suas relações.
+
+Outro assunto que deve ser relevado nesta gestão é desenvolvimento de meta-dados, eles possuem características que envolvem formato, método de acesso como índice, com função para as ferramentas de pesquisa usadas na criação de relatórios. Estas ferramentas podem incluir:
+
+- Modelos de dados;
+
+- Sistema para gestão de documentos;
+
+- Taxonomia;
+
+- Referências cruzadas;
+
+- Coleções e arquivos com índices;
+
+- Mecanismos de busca;
+
+- BI e suas ferramentas;
+
+- Entre outras.
