@@ -1,0 +1,57 @@
+Big Data
+Conhecer a tecnologia BIG DATA
+
+BIG DATA
+
+O termo “Big Data” apareceu com muita frequência nos últimos anos na impressa, especialmente nos veículos noticiosos voltados para a área de TI.
+
+Mas o que é “Big Data”?
+
+Big Data é um termo utilizado para referir-se ao crescimento exponencial de dados que ocorreu nos últimos anos. Logo mais comentaremos os fatores que levaram a este crescimento.
+
+Atualmente em apenas quinze minutos a humanidade gera uma quantidade de informações que equivale ao triplo das informações disponíveis na Biblioteca do Congresso dos EUA. (O acervo desta biblioteca em 2009 era composto por mais de 32 milhões de livros, mais de 63 milhões de manuscritos.)
+
+
+Big Data.
+Segundo Eric Schmidt, presidente do Google, até 2003: a humanidade gerou 5 exabytes. Hoje esta mesma quantidade é produzida em apenas DOIS DIAS!
+
+1 exabyte = 1.000.000.000.000.000.000 bytes
+
+Quais fatores levaram a este extraordinário crescimento na produção de dados? Observe alguns deles:
+
+Mobilidade (Os smartphones estão se tornando cada vez mais comuns.)
+Redes Sociais (Bilhões de pessoas trocam mensagens através de redes sociais como o Facebook e outras.)
+Aumento da Banda Larga (As operadoras de telecomunicações oferecem planos de banda larga por valores “razoáveis”.)
+Redução do custo de conexão à Internet (Embora você talvez não ache que o custo atual de conexão à Internet seja baixo, é proporcionalmente muito menor, se levarmos em consideração a quantidade de dados que podemos trafegar, em relação ao que as empresas pagavam há cerca de dez anos.)
+Internet das Coisas – IoT (Modernos eletrodomésticos e outros dispositivos residenciais e industriais podem ser monitorados e controlados através da Internet.)
+Geolocalização (Sistemas GPS estão disponíveis em vários dispositivos móveis como tablets e smartphones e em vários modelos de automóveis.)
+Computação em Nuvem (Muitas empresas acham que armazenar seus dados na nuvem é economicamente mais viável do que conservá-los completamente em suas próprias instalações.)
+Redução no Custo de Armazenamento de Dados (Há vinte anos o custo médio aproximado para armazenar-se 1GB era de US$ 1000.00 (mil dólares). Hoje este custo é de aproximadamente US$ 0.06 (seis centavos de dólares).
+
+deficiente visual
+Fatores que influenciaram o Big Data.
+Devemos levar também em consideração os tipos de dados que os usuários costumavam armazenar em seus equipamentos domésticos ou trocar entre seus contatos há pouco mais de dez anos e os tipos de dados mais comuns atualmente. No passado arquivos de texto (com tamanho relativamente pequeno) eram os mais comuns. Atualmente os tipos de dados muito comuns são imagens e vídeos (com tamanho muito maior do que arquivos de texto).
+
+As empresas estão cada vez mais interessadas em saber o teor das mensagens trocadas entre os usuários nas redes sociais e nas pesquisas realizadas em sites de busca. Algumas soluções são incrivelmente sofisticadas e fazem alguns acreditarem que estas empresas sabem mais de nossas vidas do que nossos entes queridos.
+
+Um caso amplamente divulgado é da Target. Esta loja de departamentos americana possui aproximadamente 1800 pontos de vendas. Certo dia um senhor entrou nervoso em uma das lojas próxima à sua casa e questionou o gerente por que sua filha adolescente estava recebendo propaganda de itens relacionados a bebês. O gerente desculpou-se dizendo que provavelmente tratava-se de um engano. Passados poucos meses o senhor retornou à loja e pediu desculpas. Ele agora era avô. Sua filha estava grávida e ele não sabia. Este caso levanta, sem dúvida, o debate sobre como os dados coletados podem ser utilizados pelas empresas.
+
+Dimensões do “Big Data”
+
+Atualmente o mercado, em geral, entende que o “Big Data” apresenta as seguintes dimensões (que também podem ser entendidos como cinco desafios:
+
+Deficiente visual
+Dimensões Big Data.
+VOLUME: Representa a quantidade de dados armazenados pelas organizações. Quanto maior o volume de dados, maios deverão ser os esforços na gestão dos dados.
+
+VELOCIDADE: Representa o desafio de disponibilizar imediatamente os dados para operações como análise e pesquisa de dados.
+
+VARIEDADE: Envolve os tipos de dados: estruturados (como os apresentados em tabelas de bancos de dados), não estruturados como os que são trocados em mensagens em redes sociais e (conforme definem alguns autores) os semiestruturados (como os dados em documentos gerados na linguagem HTML das páginas web).
+
+VERACIDADE: Envolve a confiabilidade dos dados. Fontes diferentes podem apresentar dados incompletos, incertos ou inconsistentes.
+
+VALOR: Corresponde ao retorno financeiro que os dados podem fornecer às organizações. Os dados devem agregar valor ao negócio. O valor análise dos dados, ou o seu real valor para a empresa, deve compensar o custo referente à coleta, armazenamento, processamento dos dados.
+
+A procura por profissionais capacitados a realizar a análise dos dados e utilizar as ferramentas e soluções voltadas a extrair informações que possam agregar valor às operações das empresas nas mais variadas áreas fez surgir uma nova carreira o “cientista de dados”.
+
+Chegamos assim ao final deste tópico. Tivemos oportunidade de considerar questões tais como o que significa “Big Data”, o crescimento extraordinário dos dados gerados pela humanidade nos últimos anos e os desafios do “Big Data”.
